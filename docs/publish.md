@@ -2,9 +2,10 @@
 1. Инкрементируем версию библиотеки в `package.json`.
 2. Выполняем команды
 ```shell
-    npm login
+    npm run generate-icons
     npm run build
-    npm publish
+    npm login
+    npm publish --tag beta
 ```
 3. Дожидаемся появления версии в [npm](https://www.npmjs.com/package/vue-vkontakte-icons).
 4. По необходимости обновляем библиотеку в своём проекте

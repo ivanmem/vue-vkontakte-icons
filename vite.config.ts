@@ -31,11 +31,11 @@ export default defineConfig(() => {
       },
     },
     plugins: [
-      generateIcons(),
+      vue(),
       svgLoader({
         svgo: false,
       }),
-      vue(),
+      generateIcons(),
       dts({
         tsconfigPath: './tsconfig.app.json',
         entryRoot: 'src',
@@ -43,6 +43,12 @@ export default defineConfig(() => {
           'src/**/*',
           'src/**/*.d.ts',
         ],
+        insertTypesEntry: true,
+        staticImport: true,
+        rollupTypes: true,
+        strictOutput: true,
+        copyDtsFiles: true,
+
       }),
     ],
     resolve: {

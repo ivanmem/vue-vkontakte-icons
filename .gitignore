@@ -26,3 +26,4 @@ dist-ssr
 /package-lock.json
 /tsconfig.app.tsbuildinfo
 /.vscode/extensions.json
+web-types.json

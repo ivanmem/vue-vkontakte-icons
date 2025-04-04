@@ -21,3 +21,6 @@ npm install vue-vkontakte-icons
 ## Полный список иконок
 
 https://vkcom.github.io/icons/
+
+## Лицензия
+`vue-vkontakte-icons` распространяется под лицензией [MIT](https://opensource.org/licenses/MIT).
