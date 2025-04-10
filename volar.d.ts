@@ -3215,6 +3215,11 @@ declare module 'vue' {
     Icon96GoodsCollection: import('vue').DefineComponent
     Icon96NotePenOutline: import('vue').DefineComponent
     Icon96RadiowavesAroundOutline: import('vue').DefineComponent
+    Icon20StoryAddOutline: import('vue').DefineComponent
+    Icon24CommentAlt: import('vue').DefineComponent
+    Icon24ShareAlt: import('vue').DefineComponent
+    Icon56PinDotOutline: import('vue').DefineComponent
+    Icon56PinOutline: import('vue').DefineComponent
   }
 }
 export {}

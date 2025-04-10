@@ -5,7 +5,7 @@ import { Api } from '@vitejs/plugin-vue'
 import { Plugin } from 'vite'
 import { snakeCase } from "es-toolkit";
 
-const iconsDir = path.join(process.cwd(), './src/assets/svg')
+const iconsDir = path.join(process.cwd(), './node_modules/@vkontakte/icons/src/svg')
 
 function exist(path: string) {
     return fs.existsSync(path)
@@ -46,7 +46,7 @@ export default function generateIcons(): Plugin<Api> {
                 for (const file of iconFiles) {
                     const iconName = file.replace('.svg', '')
                     const componentName = transformIconName(iconName.slice(0, iconName.length - size.length), size)
-                    const importPath = `./assets/svg/${size}/${file}?component`
+                    const importPath = `@vkontakte/icons/src/svg/${size}/${file}?component`
                     imports += `import ${componentName} from '${importPath}';\n`
                     exports += `  ${componentName},\n`
                     globalComponents[componentName] = size
