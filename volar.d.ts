@@ -3220,6 +3220,22 @@ declare module 'vue' {
     Icon24ShareAlt: import('vue').DefineComponent
     Icon56PinDotOutline: import('vue').DefineComponent
     Icon56PinOutline: import('vue').DefineComponent
+    Icon12MarketSlash: import('vue').DefineComponent
+    Icon16BloggerMark10kOutline: import('vue').DefineComponent
+    Icon16PinOutline: import('vue').DefineComponent
+    Icon20EditorCutOutline: import('vue').DefineComponent
+    Icon20HeadphonesOutline: import('vue').DefineComponent
+    Icon20MessageTextOutline: import('vue').DefineComponent
+    Icon20MoreHorizontal: import('vue').DefineComponent
+    Icon20OnOffOutline: import('vue').DefineComponent
+    Icon20Reorder: import('vue').DefineComponent
+    Icon20UmaOutline: import('vue').DefineComponent
+    Icon24MessageForward: import('vue').DefineComponent
+    Icon24StarCircleFillYellow: import('vue').DefineComponent
+    Icon28MessageTextOutline: import('vue').DefineComponent
+    Icon36Forward15: import('vue').DefineComponent
+    Icon36UserSlashOutline: import('vue').DefineComponent
+    Icon56HandTapOutline: import('vue').DefineComponent
   }
 }
 export {}
