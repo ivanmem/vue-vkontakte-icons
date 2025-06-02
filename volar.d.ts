@@ -3236,6 +3236,15 @@ declare module 'vue' {
     Icon36Forward15: import('vue').DefineComponent
     Icon36UserSlashOutline: import('vue').DefineComponent
     Icon56HandTapOutline: import('vue').DefineComponent
+    Icon12DotsVertical: import('vue').DefineComponent
+    Icon16NotificationWaves: import('vue').DefineComponent
+    Icon16PopUpStickerOutline: import('vue').DefineComponent
+    Icon20ListArrowLeftDownOutline: import('vue').DefineComponent
+    Icon32PlayCircleFillRed: import('vue').DefineComponent
+    Icon32UserCircleFillBlue: import('vue').DefineComponent
+    Icon40ClipsCircle: import('vue').DefineComponent
+    Icon64Pause: import('vue').DefineComponent
+    Icon64Play: import('vue').DefineComponent
   }
 }
 export {}
