@@ -3345,6 +3345,25 @@ declare module 'vue' {
     Icon48UsersCircleFillViolet: import('vue').DefineComponent
     Icon56ScanViewfinderOutline: import('vue').DefineComponent
     Icon56ScreencastOutline: import('vue').DefineComponent
+    Icon16Arrow2SquarepathOutline: import('vue').DefineComponent
+    Icon16SortArrowDown: import('vue').DefineComponent
+    Icon16SortArrowUp: import('vue').DefineComponent
+    Icon16StoriesIdeas: import('vue').DefineComponent
+    Icon16TagOutline: import('vue').DefineComponent
+    Icon20ClipsAttachOutline: import('vue').DefineComponent
+    Icon24ClipsAttachOutline: import('vue').DefineComponent
+    Icon24ImageFormat: import('vue').DefineComponent
+    Icon24SortArrowDown: import('vue').DefineComponent
+    Icon24SortArrowUp: import('vue').DefineComponent
+    Icon28CalendarDaysOutline: import('vue').DefineComponent
+    Icon28CalendarSingleDayOutline: import('vue').DefineComponent
+    Icon28ClipsAttachOutline: import('vue').DefineComponent
+    Icon28SortArrowDown: import('vue').DefineComponent
+    Icon28SortArrowUp: import('vue').DefineComponent
+    Icon32SortArrowDown: import('vue').DefineComponent
+    Icon32SortArrowUp: import('vue').DefineComponent
+    Icon48SortArrowDown: import('vue').DefineComponent
+    Icon48SortArrowUp: import('vue').DefineComponent
   }
 }
 export {}
