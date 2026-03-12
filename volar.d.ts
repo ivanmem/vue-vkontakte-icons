@@ -3364,6 +3364,44 @@ declare module 'vue' {
     Icon32SortArrowUp: import('vue').DefineComponent
     Icon48SortArrowDown: import('vue').DefineComponent
     Icon48SortArrowUp: import('vue').DefineComponent
+    Icon12Share: import('vue').DefineComponent
+    Icon12Shops: import('vue').DefineComponent
+    Icon16ComputerOutline: import('vue').DefineComponent
+    Icon16DonutOutline: import('vue').DefineComponent
+    Icon16Live: import('vue').DefineComponent
+    Icon16NotificationCheckOutline: import('vue').DefineComponent
+    Icon16SmartphoneOutline: import('vue').DefineComponent
+    Icon16TabletOutline: import('vue').DefineComponent
+    Icon16ThumbsDown: import('vue').DefineComponent
+    Icon16ThumbsUp: import('vue').DefineComponent
+    Icon16TvAltOutline: import('vue').DefineComponent
+    Icon20CalendarShield: import('vue').DefineComponent
+    Icon20Donut: import('vue').DefineComponent
+    Icon20DonutCoinCircleFillYellow: import('vue').DefineComponent
+    Icon20DonutOutline: import('vue').DefineComponent
+    Icon20Market: import('vue').DefineComponent
+    Icon20StarCircleFillYellow: import('vue').DefineComponent
+    Icon24ComputerStackOutline: import('vue').DefineComponent
+    Icon24DonutCheckOutline: import('vue').DefineComponent
+    Icon24DonutOutline: import('vue').DefineComponent
+    Icon24ExpandRectangleVerticalOutline: import('vue').DefineComponent
+    Icon24HorizontalRectangleArrowsInOutline: import('vue').DefineComponent
+    Icon24HorizontalRectangleArrowsOutOutline: import('vue').DefineComponent
+    Icon24ListInsertFirstOutline: import('vue').DefineComponent
+    Icon24MessageCheckOutline: import('vue').DefineComponent
+    Icon24RectangleTextOutline: import('vue').DefineComponent
+    Icon24ScissorsOutline: import('vue').DefineComponent
+    Icon24TruckOutline: import('vue').DefineComponent
+    Icon24Tv: import('vue').DefineComponent
+    Icon28ClockCircleFillRed: import('vue').DefineComponent
+    Icon28DonutCoinCircleFillYellow: import('vue').DefineComponent
+    Icon28DonutOutline: import('vue').DefineComponent
+    Icon40DonutCoinCircleFillYellow: import('vue').DefineComponent
+    Icon40UsersCircleFillBlue: import('vue').DefineComponent
+    Icon48DonutCoinCircleFillYellow: import('vue').DefineComponent
+    Icon48UsersCircleFillBlue: import('vue').DefineComponent
+    Icon56DonutOutline: import('vue').DefineComponent
+    Icon64UsersCircleFillBlue: import('vue').DefineComponent
   }
 }
 export {}
