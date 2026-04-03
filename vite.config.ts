@@ -1,6 +1,6 @@
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
-import { defineConfig } from 'vite'
+import { defineConfig, type LibraryFormats } from 'vite'
 import dts from 'vite-plugin-dts'
 import svgLoader from 'vite-svg-loader'
 import generateIcons from "./scripts/pluginGenerateIcons.ts";
@@ -11,22 +11,18 @@ export default defineConfig(() => {
     build: {
       lib: {
         entry: resolve(__dirname, 'src/index.ts'),
-        formats: ['es'],
-        fileName: (format, entryName) => `${entryName}.${format}.js`,
+        name: 'VueVkontakteIcons',
+        fileName: 'index',
+        formats: ['es'] as LibraryFormats[],
       },
       emptyOutDir: true,
       rollupOptions: {
         external: ['vue'],
         output: {
-          exports: 'named',
+          exports: 'named' as 'named',
           globals: {
             vue: 'Vue',
           },
-          entryFileNames: '[name].js',
-          assetFileNames: '[name].[ext]',
-          preserveModules: true,
-          preserveModulesRoot: 'src',
-          inlineDynamicImports: false,
         },
       },
     },
