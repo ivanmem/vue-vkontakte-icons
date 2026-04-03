@@ -3402,6 +3402,24 @@ declare module 'vue' {
     Icon48UsersCircleFillBlue: import('vue').DefineComponent
     Icon56DonutOutline: import('vue').DefineComponent
     Icon64UsersCircleFillBlue: import('vue').DefineComponent
+    Icon16ArrowDownCircleSmall: import('vue').DefineComponent
+    Icon16Hide: import('vue').DefineComponent
+    Icon16Stop: import('vue').DefineComponent
+    Icon20ArrowUpCircleClockOutline: import('vue').DefineComponent
+    Icon20ArrowUpCircleOutline: import('vue').DefineComponent
+    Icon20BracketsSlashSquareOutline: import('vue').DefineComponent
+    Icon20MessageClockOutline: import('vue').DefineComponent
+    Icon20SearchStarsOutline: import('vue').DefineComponent
+    Icon20Send: import('vue').DefineComponent
+    Icon20SendClock: import('vue').DefineComponent
+    Icon20TextMonospacedOutline: import('vue').DefineComponent
+    Icon24MessageStarsOutline: import('vue').DefineComponent
+    Icon24PenStackOutline: import('vue').DefineComponent
+    Icon28ArrowDownCircleOutline: import('vue').DefineComponent
+    Icon28ArrowLeftCircleOutline: import('vue').DefineComponent
+    Icon28GiftClockOutline: import('vue').DefineComponent
+    Icon28MessageStarsOutline: import('vue').DefineComponent
+    Icon32HandPointUp: import('vue').DefineComponent
   }
 }
 export {}

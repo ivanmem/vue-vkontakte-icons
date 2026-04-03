@@ -169,6 +169,7 @@ import Icon16Arrows4Outward from '@vkontakte/icons/src/svg/16/arrows_4_outward_1
 import Icon16ArrowsUpDown from '@vkontakte/icons/src/svg/16/arrows_up_down_16.svg?component';
 import Icon16Arrow2SquarepathOutline from '@vkontakte/icons/src/svg/16/arrow_2_squarepath_outline_16.svg?component';
 import Icon16ArrowDownCircle from '@vkontakte/icons/src/svg/16/arrow_down_circle_16.svg?component';
+import Icon16ArrowDownCircleSmall from '@vkontakte/icons/src/svg/16/arrow_down_circle_small_16.svg?component';
 import Icon16ArrowDownOutline from '@vkontakte/icons/src/svg/16/arrow_down_outline_16.svg?component';
 import Icon16ArrowLeftOutline from '@vkontakte/icons/src/svg/16/arrow_left_outline_16.svg?component';
 import Icon16ArrowRightCircle from '@vkontakte/icons/src/svg/16/arrow_right_circle_16.svg?component';
@@ -331,6 +332,7 @@ import Icon16Headphones from '@vkontakte/icons/src/svg/16/headphones_16.svg?comp
 import Icon16HeadphonesOutline from '@vkontakte/icons/src/svg/16/headphones_outline_16.svg?component';
 import Icon16Help from '@vkontakte/icons/src/svg/16/help_16.svg?component';
 import Icon16HelpOutline from '@vkontakte/icons/src/svg/16/help_outline_16.svg?component';
+import Icon16Hide from '@vkontakte/icons/src/svg/16/hide_16.svg?component';
 import Icon16HideOutline from '@vkontakte/icons/src/svg/16/hide_outline_16.svg?component';
 import Icon16HieroglyphCharacterOutline from '@vkontakte/icons/src/svg/16/hieroglyph_character_outline_16.svg?component';
 import Icon16HistoryBackwardOutline from '@vkontakte/icons/src/svg/16/history_backward_outline_16.svg?component';
@@ -496,6 +498,7 @@ import Icon16StarCircleFillBlue from '@vkontakte/icons/src/svg/16/star_circle_fi
 import Icon16StarCircleFillGray from '@vkontakte/icons/src/svg/16/star_circle_fill_gray_16.svg?component';
 import Icon16StarCircleFillYellow from '@vkontakte/icons/src/svg/16/star_circle_fill_yellow_16.svg?component';
 import Icon16StickerSmileOutline from '@vkontakte/icons/src/svg/16/sticker_smile_outline_16.svg?component';
+import Icon16Stop from '@vkontakte/icons/src/svg/16/stop_16.svg?component';
 import Icon16StorefrontOutline from '@vkontakte/icons/src/svg/16/storefront_outline_16.svg?component';
 import Icon16StoriesIdeas from '@vkontakte/icons/src/svg/16/stories_ideas_16.svg?component';
 import Icon16Story from '@vkontakte/icons/src/svg/16/story_16.svg?component';
@@ -613,6 +616,8 @@ import Icon20ArrowRightLeftCornersOutline from '@vkontakte/icons/src/svg/20/arro
 import Icon20ArrowRightOutline from '@vkontakte/icons/src/svg/20/arrow_right_outline_20.svg?component';
 import Icon20ArrowRightSquareOutline from '@vkontakte/icons/src/svg/20/arrow_right_square_outline_20.svg?component';
 import Icon20ArrowTurnRightOutline from '@vkontakte/icons/src/svg/20/arrow_turn_right_outline_20.svg?component';
+import Icon20ArrowUpCircleClockOutline from '@vkontakte/icons/src/svg/20/arrow_up_circle_clock_outline_20.svg?component';
+import Icon20ArrowUpCircleOutline from '@vkontakte/icons/src/svg/20/arrow_up_circle_outline_20.svg?component';
 import Icon20ArrowUpOutline from '@vkontakte/icons/src/svg/20/arrow_up_outline_20.svg?component';
 import Icon20ArrowUpRectangle from '@vkontakte/icons/src/svg/20/arrow_up_rectangle_20.svg?component';
 import Icon20ArrowUpRectangleOutline from '@vkontakte/icons/src/svg/20/arrow_up_rectangle_outline_20.svg?component';
@@ -646,6 +651,7 @@ import Icon20BookSpreadOutline from '@vkontakte/icons/src/svg/20/book_spread_out
 import Icon20BookSpreadSimpleOutline from '@vkontakte/icons/src/svg/20/book_spread_simple_outline_20.svg?component';
 import Icon20BoxCircleFillBlue from '@vkontakte/icons/src/svg/20/box_circle_fill_blue_20.svg?component';
 import Icon20BracketsSlashOutline from '@vkontakte/icons/src/svg/20/brackets_slash_outline_20.svg?component';
+import Icon20BracketsSlashSquareOutline from '@vkontakte/icons/src/svg/20/brackets_slash_square_outline_20.svg?component';
 import Icon20BrokenHeartOutline from '@vkontakte/icons/src/svg/20/broken_heart_outline_20.svg?component';
 import Icon20BrushOutline from '@vkontakte/icons/src/svg/20/brush_outline_20.svg?component';
 import Icon20BubbleLolOutline from '@vkontakte/icons/src/svg/20/bubble_lol_outline_20.svg?component';
@@ -953,6 +959,7 @@ import Icon20MessageArrowRightOutline from '@vkontakte/icons/src/svg/20/message_
 import Icon20MessageCheckOutline from '@vkontakte/icons/src/svg/20/message_check_outline_20.svg?component';
 import Icon20MessageCircleFillBlue from '@vkontakte/icons/src/svg/20/message_circle_fill_blue_20.svg?component';
 import Icon20MessageCircleFillGreen from '@vkontakte/icons/src/svg/20/message_circle_fill_green_20.svg?component';
+import Icon20MessageClockOutline from '@vkontakte/icons/src/svg/20/message_clock_outline_20.svg?component';
 import Icon20MessageCrossOutline from '@vkontakte/icons/src/svg/20/message_cross_outline_20.svg?component';
 import Icon20MessageHeart from '@vkontakte/icons/src/svg/20/message_heart_20.svg?component';
 import Icon20MessageOutline from '@vkontakte/icons/src/svg/20/message_outline_20.svg?component';
@@ -1081,6 +1088,9 @@ import Icon20ScanViewfinderOutline from '@vkontakte/icons/src/svg/20/scan_viewfi
 import Icon20ScissorsOutline from '@vkontakte/icons/src/svg/20/scissors_outline_20.svg?component';
 import Icon20ScribblePencilRectangleOutline from '@vkontakte/icons/src/svg/20/scribble_pencil_rectangle_outline_20.svg?component';
 import Icon20Search from '@vkontakte/icons/src/svg/20/search_20.svg?component';
+import Icon20SearchStarsOutline from '@vkontakte/icons/src/svg/20/search_stars_outline_20.svg?component';
+import Icon20Send from '@vkontakte/icons/src/svg/20/send_20.svg?component';
+import Icon20SendClock from '@vkontakte/icons/src/svg/20/send_clock_20.svg?component';
 import Icon20SendClockOutline from '@vkontakte/icons/src/svg/20/send_clock_outline_20.svg?component';
 import Icon20SendOutline from '@vkontakte/icons/src/svg/20/send_outline_20.svg?component';
 import Icon20ServicesCircleFillBlue from '@vkontakte/icons/src/svg/20/services_circle_fill_blue_20.svg?component';
@@ -1159,6 +1169,7 @@ import Icon20TextHeading2Outline from '@vkontakte/icons/src/svg/20/text_heading_
 import Icon20TextItalicOutline from '@vkontakte/icons/src/svg/20/text_italic_outline_20.svg?component';
 import Icon20TextLiveCircleFillGreen from '@vkontakte/icons/src/svg/20/text_live_circle_fill_green_20.svg?component';
 import Icon20TextLiveOutline from '@vkontakte/icons/src/svg/20/text_live_outline_20.svg?component';
+import Icon20TextMonospacedOutline from '@vkontakte/icons/src/svg/20/text_monospaced_outline_20.svg?component';
 import Icon20TextOutline from '@vkontakte/icons/src/svg/20/text_outline_20.svg?component';
 import Icon20TextRightOutline from '@vkontakte/icons/src/svg/20/text_right_outline_20.svg?component';
 import Icon20TextStrikethroughOutline from '@vkontakte/icons/src/svg/20/text_strikethrough_outline_20.svg?component';
@@ -1684,6 +1695,7 @@ import Icon24MessageHeartOutline from '@vkontakte/icons/src/svg/24/message_heart
 import Icon24MessageOutline from '@vkontakte/icons/src/svg/24/message_outline_24.svg?component';
 import Icon24MessagePinOutline from '@vkontakte/icons/src/svg/24/message_pin_outline_24.svg?component';
 import Icon24MessageReplyOutline from '@vkontakte/icons/src/svg/24/message_reply_outline_24.svg?component';
+import Icon24MessageStarsOutline from '@vkontakte/icons/src/svg/24/message_stars_outline_24.svg?component';
 import Icon24MessageUnreadOutline from '@vkontakte/icons/src/svg/24/message_unread_outline_24.svg?component';
 import Icon24MessageUnreadTopOutline from '@vkontakte/icons/src/svg/24/message_unread_top_outline_24.svg?component';
 import Icon24Microphone2SlashOutline from '@vkontakte/icons/src/svg/24/microphone_2_slash_outline_24.svg?component';
@@ -1747,6 +1759,7 @@ import Icon24PaymentCardClockOutline from '@vkontakte/icons/src/svg/24/payment_c
 import Icon24PaymentCardOutline from '@vkontakte/icons/src/svg/24/payment_card_outline_24.svg?component';
 import Icon24PaymentCardVerticalOutline from '@vkontakte/icons/src/svg/24/payment_card_vertical_outline_24.svg?component';
 import Icon24PenOutline from '@vkontakte/icons/src/svg/24/pen_outline_24.svg?component';
+import Icon24PenStackOutline from '@vkontakte/icons/src/svg/24/pen_stack_outline_24.svg?component';
 import Icon24PercentCircle from '@vkontakte/icons/src/svg/24/percent_circle_24.svg?component';
 import Icon24Phone from '@vkontakte/icons/src/svg/24/phone_24.svg?component';
 import Icon24PhoneAddOutline from '@vkontakte/icons/src/svg/24/phone_add_outline_24.svg?component';
@@ -2056,8 +2069,10 @@ import Icon28ArchiveCheckOutline from '@vkontakte/icons/src/svg/28/archive_check
 import Icon28ArchiveCircleFillGray from '@vkontakte/icons/src/svg/28/archive_circle_fill_gray_28.svg?component';
 import Icon28ArchiveOutline from '@vkontakte/icons/src/svg/28/archive_outline_28.svg?component';
 import Icon28ArmchairOutline from '@vkontakte/icons/src/svg/28/armchair_outline_28.svg?component';
+import Icon28ArrowDownCircleOutline from '@vkontakte/icons/src/svg/28/arrow_down_circle_outline_28.svg?component';
 import Icon28ArrowDownOutline from '@vkontakte/icons/src/svg/28/arrow_down_outline_28.svg?component';
 import Icon28ArrowDownToSquareOutline from '@vkontakte/icons/src/svg/28/arrow_down_to_square_outline_28.svg?component';
+import Icon28ArrowLeftCircleOutline from '@vkontakte/icons/src/svg/28/arrow_left_circle_outline_28.svg?component';
 import Icon28ArrowLeftOutline from '@vkontakte/icons/src/svg/28/arrow_left_outline_28.svg?component';
 import Icon28ArrowPopDownOutline from '@vkontakte/icons/src/svg/28/arrow_pop_down_outline_28.svg?component';
 import Icon28ArrowPopUpOutline from '@vkontakte/icons/src/svg/28/arrow_pop_up_outline_28.svg?component';
@@ -2314,6 +2329,7 @@ import Icon28GhostSimpleOutline from '@vkontakte/icons/src/svg/28/ghost_simple_o
 import Icon28Gift from '@vkontakte/icons/src/svg/28/gift_28.svg?component';
 import Icon28GiftCircleFillRed from '@vkontakte/icons/src/svg/28/gift_circle_fill_red_28.svg?component';
 import Icon28GiftCircleFillYellow from '@vkontakte/icons/src/svg/28/gift_circle_fill_yellow_28.svg?component';
+import Icon28GiftClockOutline from '@vkontakte/icons/src/svg/28/gift_clock_outline_28.svg?component';
 import Icon28GiftOutline from '@vkontakte/icons/src/svg/28/gift_outline_28.svg?component';
 import Icon28GifOutline from '@vkontakte/icons/src/svg/28/gif_outline_28.svg?component';
 import Icon28GlobeCircleFillBlue from '@vkontakte/icons/src/svg/28/globe_circle_fill_blue_28.svg?component';
@@ -2476,6 +2492,7 @@ import Icon28MessagePinOutline from '@vkontakte/icons/src/svg/28/message_pin_out
 import Icon28MessageQuestionCircleFillViolet from '@vkontakte/icons/src/svg/28/message_question_circle_fill_violet_28.svg?component';
 import Icon28MessageReplyOutline from '@vkontakte/icons/src/svg/28/message_reply_outline_28.svg?component';
 import Icon28MessageRequestCircleFillBlue from '@vkontakte/icons/src/svg/28/message_request_circle_fill_blue_28.svg?component';
+import Icon28MessageStarsOutline from '@vkontakte/icons/src/svg/28/message_stars_outline_28.svg?component';
 import Icon28MessageStarOutline from '@vkontakte/icons/src/svg/28/message_star_outline_28.svg?component';
 import Icon28MessageTextOutline from '@vkontakte/icons/src/svg/28/message_text_outline_28.svg?component';
 import Icon28MessageUnreadCircleFillGray from '@vkontakte/icons/src/svg/28/message_unread_circle_fill_gray_28.svg?component';
@@ -2917,6 +2934,7 @@ import Icon32Gallery from '@vkontakte/icons/src/svg/32/gallery_32.svg?component'
 import Icon32Gift from '@vkontakte/icons/src/svg/32/gift_32.svg?component';
 import Icon32GiftOutline from '@vkontakte/icons/src/svg/32/gift_outline_32.svg?component';
 import Icon32Graffiti from '@vkontakte/icons/src/svg/32/graffiti_32.svg?component';
+import Icon32HandPointUp from '@vkontakte/icons/src/svg/32/hand_point_up_32.svg?component';
 import Icon32HashtagOutline from '@vkontakte/icons/src/svg/32/hashtag_outline_32.svg?component';
 import Icon32ImageFilter from '@vkontakte/icons/src/svg/32/image_filter_32.svg?component';
 import Icon32ImageFormat from '@vkontakte/icons/src/svg/32/image_format_32.svg?component';
@@ -3586,6 +3604,7 @@ export {
   Icon16ArrowsUpDown,
   Icon16Arrow2SquarepathOutline,
   Icon16ArrowDownCircle,
+  Icon16ArrowDownCircleSmall,
   Icon16ArrowDownOutline,
   Icon16ArrowLeftOutline,
   Icon16ArrowRightCircle,
@@ -3748,6 +3767,7 @@ export {
   Icon16HeadphonesOutline,
   Icon16Help,
   Icon16HelpOutline,
+  Icon16Hide,
   Icon16HideOutline,
   Icon16HieroglyphCharacterOutline,
   Icon16HistoryBackwardOutline,
@@ -3913,6 +3933,7 @@ export {
   Icon16StarCircleFillGray,
   Icon16StarCircleFillYellow,
   Icon16StickerSmileOutline,
+  Icon16Stop,
   Icon16StorefrontOutline,
   Icon16StoriesIdeas,
   Icon16Story,
@@ -4030,6 +4051,8 @@ export {
   Icon20ArrowRightOutline,
   Icon20ArrowRightSquareOutline,
   Icon20ArrowTurnRightOutline,
+  Icon20ArrowUpCircleClockOutline,
+  Icon20ArrowUpCircleOutline,
   Icon20ArrowUpOutline,
   Icon20ArrowUpRectangle,
   Icon20ArrowUpRectangleOutline,
@@ -4063,6 +4086,7 @@ export {
   Icon20BookSpreadSimpleOutline,
   Icon20BoxCircleFillBlue,
   Icon20BracketsSlashOutline,
+  Icon20BracketsSlashSquareOutline,
   Icon20BrokenHeartOutline,
   Icon20BrushOutline,
   Icon20BubbleLolOutline,
@@ -4370,6 +4394,7 @@ export {
   Icon20MessageCheckOutline,
   Icon20MessageCircleFillBlue,
   Icon20MessageCircleFillGreen,
+  Icon20MessageClockOutline,
   Icon20MessageCrossOutline,
   Icon20MessageHeart,
   Icon20MessageOutline,
@@ -4498,6 +4523,9 @@ export {
   Icon20ScissorsOutline,
   Icon20ScribblePencilRectangleOutline,
   Icon20Search,
+  Icon20SearchStarsOutline,
+  Icon20Send,
+  Icon20SendClock,
   Icon20SendClockOutline,
   Icon20SendOutline,
   Icon20ServicesCircleFillBlue,
@@ -4576,6 +4604,7 @@ export {
   Icon20TextItalicOutline,
   Icon20TextLiveCircleFillGreen,
   Icon20TextLiveOutline,
+  Icon20TextMonospacedOutline,
   Icon20TextOutline,
   Icon20TextRightOutline,
   Icon20TextStrikethroughOutline,
@@ -5101,6 +5130,7 @@ export {
   Icon24MessageOutline,
   Icon24MessagePinOutline,
   Icon24MessageReplyOutline,
+  Icon24MessageStarsOutline,
   Icon24MessageUnreadOutline,
   Icon24MessageUnreadTopOutline,
   Icon24Microphone2SlashOutline,
@@ -5164,6 +5194,7 @@ export {
   Icon24PaymentCardOutline,
   Icon24PaymentCardVerticalOutline,
   Icon24PenOutline,
+  Icon24PenStackOutline,
   Icon24PercentCircle,
   Icon24Phone,
   Icon24PhoneAddOutline,
@@ -5473,8 +5504,10 @@ export {
   Icon28ArchiveCircleFillGray,
   Icon28ArchiveOutline,
   Icon28ArmchairOutline,
+  Icon28ArrowDownCircleOutline,
   Icon28ArrowDownOutline,
   Icon28ArrowDownToSquareOutline,
+  Icon28ArrowLeftCircleOutline,
   Icon28ArrowLeftOutline,
   Icon28ArrowPopDownOutline,
   Icon28ArrowPopUpOutline,
@@ -5731,6 +5764,7 @@ export {
   Icon28Gift,
   Icon28GiftCircleFillRed,
   Icon28GiftCircleFillYellow,
+  Icon28GiftClockOutline,
   Icon28GiftOutline,
   Icon28GifOutline,
   Icon28GlobeCircleFillBlue,
@@ -5893,6 +5927,7 @@ export {
   Icon28MessageQuestionCircleFillViolet,
   Icon28MessageReplyOutline,
   Icon28MessageRequestCircleFillBlue,
+  Icon28MessageStarsOutline,
   Icon28MessageStarOutline,
   Icon28MessageTextOutline,
   Icon28MessageUnreadCircleFillGray,
@@ -6334,6 +6369,7 @@ export {
   Icon32Gift,
   Icon32GiftOutline,
   Icon32Graffiti,
+  Icon32HandPointUp,
   Icon32HashtagOutline,
   Icon32ImageFilter,
   Icon32ImageFormat,
