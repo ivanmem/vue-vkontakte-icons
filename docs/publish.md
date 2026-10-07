@@ -11,6 +11,7 @@ Workflow [sync-icons](../.github/workflows/sync-icons.yml) ежедневно п
 `vue-vkontakte-icons` → Settings → Trusted Publisher → GitHub Actions, где указываются `ivanmem` / `vue-vkontakte-icons` / `sync-icons.yml`.
 
 Для своих исправлений достаточно поднять версию в `package.json` и запушить в `main`: workflow опубликует любую версию, которой ещё нет в npm, и создаст тег с GitHub-релизом.
+Для проверки изменений используйте версию вида `3.75.2-beta.0`: она публикуется под тегом `beta` (`npm i vue-vkontakte-icons@beta`) и не становится `latest`.
 
 ## Ручная публикация
 1. Инкрементируем версию библиотеки в `package.json`.

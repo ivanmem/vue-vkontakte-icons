@@ -72,7 +72,10 @@ jobs:
       # Публикуем до push: если публикация упадёт, в репозиторий ничего не попадёт и следующий запуск повторит попытку.
       - name: Publish
         if: steps.check.outputs.version
-        run: npm publish --access public
+        env:
+          VERSION: ${{ steps.check.outputs.version }}
+        # Пре-релизы (3.75.2-beta.0) уходят под тег beta, чтобы не стать latest.
+        run: npm publish --access public --tag "$([[ "$VERSION" == *-* ]] && echo beta || echo latest)"
 
       - name: Commit
         if: steps.check.outputs.icons
@@ -99,6 +102,7 @@ jobs:
           else
             notes=$(git log -1 --format=%B)
           fi
-          gh release create "v$VERSION" --title "$VERSION" --notes "$notes
+          prerelease=$([[ "$VERSION" == *-* ]] && echo --prerelease || true)
+          gh release create "v$VERSION" $prerelease --title "$VERSION" --notes "$notes
 
           npm: https://www.npmjs.com/package/vue-vkontakte-icons/v/$VERSION"
