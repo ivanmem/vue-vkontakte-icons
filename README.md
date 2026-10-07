@@ -1,5 +1,9 @@
 # Vue 3 + VK Icons
 
+[![npm](https://img.shields.io/npm/v/vue-vkontakte-icons)](https://www.npmjs.com/package/vue-vkontakte-icons)
+[![npm downloads](https://img.shields.io/npm/dm/vue-vkontakte-icons)](https://www.npmjs.com/package/vue-vkontakte-icons)
+[![license](https://img.shields.io/npm/l/vue-vkontakte-icons)](LICENSE)
+
 ## Установка
 
 ```
