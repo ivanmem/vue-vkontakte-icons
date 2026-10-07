@@ -1,10 +1,11 @@
 {
   "name": "vue-vkontakte-icons",
-  "version": "3.75.0",
+  "version": "3.75.1",
   "description": "A Vue 3 Vkontakte Icon Component Library.",
   "type": "module",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "web-types": "./web-types.json",
   "author": "ivanmem",
   "license": "MIT",
   "files": [
@@ -26,8 +27,8 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./dist/index.js",
       "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
       "default": "./dist/index.js"
     }
   },

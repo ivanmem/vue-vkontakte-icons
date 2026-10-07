@@ -1,9 +1,13 @@
 # Следит за выходом новых версий @vkontakte/icons, перегенерирует иконки и публикует библиотеку в npm.
+# Также публикует версию из package.json, если её ещё нет в npm (ручные патчи).
 name: Sync @vkontakte/icons
 
 on:
   schedule:
     - cron: '0 6 * * *'
+  push:
+    branches: [main]
+    paths: [package.json]
   workflow_dispatch:
 
 concurrency:
@@ -27,32 +31,42 @@ jobs:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Check for a new version
+      - name: Check versions
         id: check
         run: |
           current=$(node -p "require('./package.json').devDependencies['@vkontakte/icons']")
           latest=$(npm view @vkontakte/icons version)
-          echo "current=$current, latest=$latest"
-          if [ "$current" = "$latest" ]; then
-            echo "Обновлений нет."
+          echo "@vkontakte/icons: current=$current, latest=$latest"
+          version=$(node -p "require('./package.json').version")
+          if [ "$current" != "$latest" ]; then
+            # Мажорное обновление может ломать API, поэтому его выпускаем вручную.
+            if [ "${current%%.*}" != "${latest%%.*}" ]; then
+              echo "::error::Вышла мажорная версия @vkontakte/icons ($current -> $latest). Обновите библиотеку вручную."
+              exit 1
+            fi
+            echo "icons=$latest" >> "$GITHUB_OUTPUT"
+            # Версия библиотеки повторяет версию иконок.
+            version=$latest
+          fi
+          if [ -n "$(npm view "vue-vkontakte-icons@$version" version 2>/dev/null)" ]; then
+            echo "vue-vkontakte-icons@$version уже опубликована."
             exit 0
           fi
-          # Мажорное обновление может ломать API, поэтому его выпускаем вручную.
-          if [ "${current%%.*}" != "${latest%%.*}" ]; then
-            echo "::error::Вышла мажорная версия @vkontakte/icons ($current -> $latest). Обновите библиотеку вручную."
-            exit 1
-          fi
-          echo "version=$latest" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
 
-      - name: Update and build
-        if: steps.check.outputs.version
+      - name: Update @vkontakte/icons
+        if: steps.check.outputs.icons
         env:
-          VERSION: ${{ steps.check.outputs.version }}
+          ICONS: ${{ steps.check.outputs.icons }}
+        run: |
+          npm install -D -E "@vkontakte/icons@$ICONS"
+          # Версию нужно поднять до генерации: она попадает в web-types.json.
+          npm version "$ICONS" --no-git-tag-version
+
+      - name: Build
+        if: steps.check.outputs.version
         run: |
           npm install
-          npm install -D -E "@vkontakte/icons@$VERSION"
-          # Версия библиотеки повторяет версию иконок. Её нужно поднять до генерации: она попадает в web-types.json.
-          npm version "$VERSION" --no-git-tag-version
           npm run generate-icons
           npm run build
 
@@ -61,8 +75,8 @@ jobs:
         if: steps.check.outputs.version
         run: npm publish --access public
 
-      - name: Commit and tag
-        if: steps.check.outputs.version
+      - name: Commit
+        if: steps.check.outputs.icons
         env:
           VERSION: ${{ steps.check.outputs.version }}
         run: |
@@ -70,15 +84,22 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add package.json src/index.ts volar.d.ts
           git commit -m "release: $VERSION"
-          git tag "v$VERSION"
-          git push origin HEAD "v$VERSION"
+          git push origin HEAD
 
-      - name: Create GitHub release
+      - name: Tag and GitHub release
         if: steps.check.outputs.version
         env:
           VERSION: ${{ steps.check.outputs.version }}
+          ICONS: ${{ steps.check.outputs.icons }}
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "v$VERSION" --title "$VERSION" --notes "Обновление [@vkontakte/icons](https://github.com/VKCOM/icons/releases) до $VERSION.
+          git tag "v$VERSION"
+          git push origin "v$VERSION"
+          if [ -n "$ICONS" ]; then
+            notes="Обновление [@vkontakte/icons](https://github.com/VKCOM/icons/releases) до $ICONS."
+          else
+            notes=$(git log -1 --format=%B)
+          fi
+          gh release create "v$VERSION" --title "$VERSION" --notes "$notes
 
           npm: https://www.npmjs.com/package/vue-vkontakte-icons/v/$VERSION"

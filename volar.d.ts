@@ -13,19 +13,29 @@ declare module 'vue' {
     Icon12ArrowUpRightOutSquareOutline: import('vue').DefineComponent
     Icon12ArrowUturnRight: import('vue').DefineComponent
     Icon12Articles: import('vue').DefineComponent
+    Icon12ArticlesOutline: import('vue').DefineComponent
+    Icon12ArticleBoxOutline: import('vue').DefineComponent
     Icon12Block: import('vue').DefineComponent
     Icon12Bomb: import('vue').DefineComponent
+    Icon12Bookmark: import('vue').DefineComponent
     Icon12BookmarkOutline: import('vue').DefineComponent
     Icon12Cake: import('vue').DefineComponent
+    Icon12Calendar: import('vue').DefineComponent
     Icon12Cancel: import('vue').DefineComponent
     Icon12CancelCircleFillRed: import('vue').DefineComponent
     Icon12CancelOutline: import('vue').DefineComponent
     Icon12Cards2: import('vue').DefineComponent
+    Icon12Car: import('vue').DefineComponent
     Icon12Chain: import('vue').DefineComponent
+    Icon12Chart: import('vue').DefineComponent
+    Icon12ChartAlt: import('vue').DefineComponent
+    Icon12ChartSquare: import('vue').DefineComponent
     Icon12Check: import('vue').DefineComponent
     Icon12CheckAlt: import('vue').DefineComponent
     Icon12CheckCircle: import('vue').DefineComponent
     Icon12CheckCircleFill: import('vue').DefineComponent
+    Icon12CheckShield: import('vue').DefineComponent
+    Icon12CheckSquare: import('vue').DefineComponent
     Icon12Chevron: import('vue').DefineComponent
     Icon12ChevronDownSmall: import('vue').DefineComponent
     Icon12ChevronLeft: import('vue').DefineComponent
@@ -39,7 +49,10 @@ declare module 'vue' {
     Icon12ClockOutline: import('vue').DefineComponent
     Icon12Coins: import('vue').DefineComponent
     Icon12Crown: import('vue').DefineComponent
+    Icon12CrownAlt: import('vue').DefineComponent
     Icon12Delete: import('vue').DefineComponent
+    Icon12Diamond: import('vue').DefineComponent
+    Icon12DotsVertical: import('vue').DefineComponent
     Icon12Download: import('vue').DefineComponent
     Icon12Dropdown: import('vue').DefineComponent
     Icon12Drop: import('vue').DefineComponent
@@ -77,23 +90,28 @@ declare module 'vue' {
     Icon12LogoClips: import('vue').DefineComponent
     Icon12LogoVkAds: import('vue').DefineComponent
     Icon12Market: import('vue').DefineComponent
+    Icon12MarketSlash: import('vue').DefineComponent
     Icon12Mask: import('vue').DefineComponent
     Icon12Mention: import('vue').DefineComponent
     Icon12Message: import('vue').DefineComponent
     Icon12MessageCross: import('vue').DefineComponent
     Icon12MessageHeart: import('vue').DefineComponent
+    Icon12MessageOutline: import('vue').DefineComponent
     Icon12MoneyCircle: import('vue').DefineComponent
     Icon12Moon: import('vue').DefineComponent
     Icon12Music: import('vue').DefineComponent
     Icon12MusicMic: import('vue').DefineComponent
     Icon12MusicNote: import('vue').DefineComponent
+    Icon12Muted: import('vue').DefineComponent
     Icon12NarrativeActiveOutline: import('vue').DefineComponent
     Icon12NftHeptagon: import('vue').DefineComponent
     Icon12Notebook: import('vue').DefineComponent
+    Icon12NotebookCheckOutline: import('vue').DefineComponent
     Icon12OnlineMobile: import('vue').DefineComponent
     Icon12OnlineVkmobile: import('vue').DefineComponent
     Icon12Palette: import('vue').DefineComponent
     Icon12Pause: import('vue').DefineComponent
+    Icon12PaymentCard: import('vue').DefineComponent
     Icon12PaymentCardOutline: import('vue').DefineComponent
     Icon12Pencil: import('vue').DefineComponent
     Icon12PercentOutline: import('vue').DefineComponent
@@ -102,13 +120,17 @@ declare module 'vue' {
     Icon12PictureOutline: import('vue').DefineComponent
     Icon12Pin: import('vue').DefineComponent
     Icon12Place: import('vue').DefineComponent
+    Icon12Plane: import('vue').DefineComponent
+    Icon12Playlist: import('vue').DefineComponent
     Icon12Play: import('vue').DefineComponent
     Icon12PlayCircle: import('vue').DefineComponent
     Icon12PlayCircleFillGray: import('vue').DefineComponent
+    Icon12PodcastOutline: import('vue').DefineComponent
     Icon12Poll: import('vue').DefineComponent
     Icon12PopupStickersCircleFillRaspberryPinkProduct: import('vue').DefineComponent
     Icon12Question: import('vue').DefineComponent
     Icon12QuoteClosing: import('vue').DefineComponent
+    Icon12Rating: import('vue').DefineComponent
     Icon12RectrangleHandPointUp: import('vue').DefineComponent
     Icon12Reply: import('vue').DefineComponent
     Icon12Repost: import('vue').DefineComponent
@@ -116,7 +138,11 @@ declare module 'vue' {
     Icon12ScribblePencilRectangle: import('vue').DefineComponent
     Icon12ScribblePencilRectangleOutline: import('vue').DefineComponent
     Icon12Services: import('vue').DefineComponent
+    Icon12Share: import('vue').DefineComponent
+    Icon12Shops: import('vue').DefineComponent
     Icon12SmileFilled: import('vue').DefineComponent
+    Icon12Sparkles: import('vue').DefineComponent
+    Icon12Sparkle: import('vue').DefineComponent
     Icon12Spinner: import('vue').DefineComponent
     Icon12SquareFilled: import('vue').DefineComponent
     Icon12SquareOutline: import('vue').DefineComponent
@@ -124,10 +150,15 @@ declare module 'vue' {
     Icon12Star: import('vue').DefineComponent
     Icon12StarCircle: import('vue').DefineComponent
     Icon12StarCircleFillYellow: import('vue').DefineComponent
+    Icon12StickerSmileOutline: import('vue').DefineComponent
     Icon12Story: import('vue').DefineComponent
     Icon12Subtitles: import('vue').DefineComponent
     Icon12Switch: import('vue').DefineComponent
     Icon12Tag: import('vue').DefineComponent
+    Icon12TargetOutline: import('vue').DefineComponent
+    Icon12TextRectangle: import('vue').DefineComponent
+    Icon12ThumbsUp: import('vue').DefineComponent
+    Icon12TruckOutline: import('vue').DefineComponent
     Icon12Unlock: import('vue').DefineComponent
     Icon12Users: import('vue').DefineComponent
     Icon12User: import('vue').DefineComponent
@@ -135,6 +166,7 @@ declare module 'vue' {
     Icon12Verified: import('vue').DefineComponent
     Icon12VerifiedAlt: import('vue').DefineComponent
     Icon12Video: import('vue').DefineComponent
+    Icon12VideoSquareOutline: import('vue').DefineComponent
     Icon12View: import('vue').DefineComponent
     Icon16AchievementCircleFillBlue: import('vue').DefineComponent
     Icon16Add: import('vue').DefineComponent
@@ -143,16 +175,20 @@ declare module 'vue' {
     Icon16AddCircleFillRed: import('vue').DefineComponent
     Icon16AddCircleFillWhite: import('vue').DefineComponent
     Icon16AddCircleOutline: import('vue').DefineComponent
+    Icon16AddOutline: import('vue').DefineComponent
     Icon16AddRectangleLine: import('vue').DefineComponent
     Icon16AddSquareOutline: import('vue').DefineComponent
     Icon16Advertising: import('vue').DefineComponent
     Icon16AlarmOutline: import('vue').DefineComponent
     Icon16ArchiveOutline: import('vue').DefineComponent
+    Icon16ArrowbranchOutline: import('vue').DefineComponent
     Icon16ArrowshapeLeftRight: import('vue').DefineComponent
     Icon16ArrowshapeRightOutline: import('vue').DefineComponent
     Icon16Arrows4Outward: import('vue').DefineComponent
     Icon16ArrowsUpDown: import('vue').DefineComponent
+    Icon16Arrow2SquarepathOutline: import('vue').DefineComponent
     Icon16ArrowDownCircle: import('vue').DefineComponent
+    Icon16ArrowDownCircleSmall: import('vue').DefineComponent
     Icon16ArrowDownOutline: import('vue').DefineComponent
     Icon16ArrowLeftOutline: import('vue').DefineComponent
     Icon16ArrowRightCircle: import('vue').DefineComponent
@@ -166,9 +202,11 @@ declare module 'vue' {
     Icon16ArticlesOutline: import('vue').DefineComponent
     Icon16ArticleBoxOutline: import('vue').DefineComponent
     Icon16ArticleOutline: import('vue').DefineComponent
+    Icon16Asterisk8: import('vue').DefineComponent
     Icon16Attach: import('vue').DefineComponent
     Icon16Backpack: import('vue').DefineComponent
     Icon16Block: import('vue').DefineComponent
+    Icon16BloggerMark10kOutline: import('vue').DefineComponent
     Icon16Bomb: import('vue').DefineComponent
     Icon16BombCircleFillPurple: import('vue').DefineComponent
     Icon16Bookmark: import('vue').DefineComponent
@@ -179,6 +217,7 @@ declare module 'vue' {
     Icon16BugOutline: import('vue').DefineComponent
     Icon16BuildingOutline: import('vue').DefineComponent
     Icon16CakeCircleFillPurple: import('vue').DefineComponent
+    Icon16CakeOutline: import('vue').DefineComponent
     Icon16CalendarOutline: import('vue').DefineComponent
     Icon16Camera: import('vue').DefineComponent
     Icon16CamSlash: import('vue').DefineComponent
@@ -186,14 +225,20 @@ declare module 'vue' {
     Icon16CancelCircle: import('vue').DefineComponent
     Icon16CancelCircleOutline: import('vue').DefineComponent
     Icon16Cards2: import('vue').DefineComponent
+    Icon16CardSparkle: import('vue').DefineComponent
     Icon16CarouselOutline: import('vue').DefineComponent
+    Icon16CaseCheck: import('vue').DefineComponent
     Icon16ChainOutline: import('vue').DefineComponent
+    Icon16Chart: import('vue').DefineComponent
+    Icon16ChartAlt: import('vue').DefineComponent
+    Icon16ChartSquareAltOutline: import('vue').DefineComponent
     Icon16CheckCircle: import('vue').DefineComponent
     Icon16CheckCircleFillGreen: import('vue').DefineComponent
     Icon16CheckCircleLarge: import('vue').DefineComponent
     Icon16CheckCircleOutline: import('vue').DefineComponent
     Icon16CheckDoubleOutline: import('vue').DefineComponent
     Icon16CheckOutline: import('vue').DefineComponent
+    Icon16CheckShieldBlue: import('vue').DefineComponent
     Icon16CheckSquareOutline: import('vue').DefineComponent
     Icon16Chevron: import('vue').DefineComponent
     Icon16ChevronDownCircle: import('vue').DefineComponent
@@ -225,6 +270,7 @@ declare module 'vue' {
     Icon16CommentSlash: import('vue').DefineComponent
     Icon16CommentSlashOutline: import('vue').DefineComponent
     Icon16Compass: import('vue').DefineComponent
+    Icon16ComputerOutline: import('vue').DefineComponent
     Icon16Connection: import('vue').DefineComponent
     Icon16CopyOutline: import('vue').DefineComponent
     Icon16CornerBottomLeftInsetOutline: import('vue').DefineComponent
@@ -232,6 +278,7 @@ declare module 'vue' {
     Icon16CropOutline: import('vue').DefineComponent
     Icon16CrossCircleSmall: import('vue').DefineComponent
     Icon16Crown: import('vue').DefineComponent
+    Icon16CrownAlt: import('vue').DefineComponent
     Icon16CrownCircleFillNeonPink: import('vue').DefineComponent
     Icon16CrownCircleFillVkDating: import('vue').DefineComponent
     Icon16CrownVerified: import('vue').DefineComponent
@@ -239,12 +286,15 @@ declare module 'vue' {
     Icon16Dash: import('vue').DefineComponent
     Icon16Delete: import('vue').DefineComponent
     Icon16DeleteOutline: import('vue').DefineComponent
+    Icon16Diamond: import('vue').DefineComponent
     Icon16DiamondOutline: import('vue').DefineComponent
+    Icon16Document: import('vue').DefineComponent
     Icon16DocumentOutline: import('vue').DefineComponent
     Icon16DollarOutline: import('vue').DefineComponent
     Icon16DonateOutline: import('vue').DefineComponent
     Icon16Done: import('vue').DefineComponent
     Icon16DoneCircle: import('vue').DefineComponent
+    Icon16DonutOutline: import('vue').DefineComponent
     Icon16DoorEnterArrowRightOutline: import('vue').DefineComponent
     Icon16DotsVertical6: import('vue').DefineComponent
     Icon16DotViewfinder: import('vue').DefineComponent
@@ -286,6 +336,7 @@ declare module 'vue' {
     Icon16FolderOutline: import('vue').DefineComponent
     Icon16Forward10: import('vue').DefineComponent
     Icon16Fullscreen: import('vue').DefineComponent
+    Icon16FullscreenExitOutline: import('vue').DefineComponent
     Icon16Game: import('vue').DefineComponent
     Icon16GearOutline: import('vue').DefineComponent
     Icon16Ghost: import('vue').DefineComponent
@@ -306,10 +357,13 @@ declare module 'vue' {
     Icon16HeadphonesOutline: import('vue').DefineComponent
     Icon16Help: import('vue').DefineComponent
     Icon16HelpOutline: import('vue').DefineComponent
+    Icon16Hide: import('vue').DefineComponent
     Icon16HideOutline: import('vue').DefineComponent
     Icon16HieroglyphCharacterOutline: import('vue').DefineComponent
     Icon16HistoryBackwardOutline: import('vue').DefineComponent
+    Icon16Home: import('vue').DefineComponent
     Icon16HomeArrowDownOutline: import('vue').DefineComponent
+    Icon16HomeOutline: import('vue').DefineComponent
     Icon16HorseToyOutline: import('vue').DefineComponent
     Icon16Hourglass: import('vue').DefineComponent
     Icon16ImageFilter: import('vue').DefineComponent
@@ -332,6 +386,7 @@ declare module 'vue' {
     Icon16ListNumberOutline: import('vue').DefineComponent
     Icon16ListPlayOutline: import('vue').DefineComponent
     Icon16ListPlusOutline: import('vue').DefineComponent
+    Icon16Live: import('vue').DefineComponent
     Icon16Location: import('vue').DefineComponent
     Icon16Lock: import('vue').DefineComponent
     Icon16LockCircleFillBlue: import('vue').DefineComponent
@@ -358,6 +413,7 @@ declare module 'vue' {
     Icon16MessageHeart: import('vue').DefineComponent
     Icon16MessageOutline: import('vue').DefineComponent
     Icon16Microphone: import('vue').DefineComponent
+    Icon16MicrophoneOutline: import('vue').DefineComponent
     Icon16MicrophoneSlash: import('vue').DefineComponent
     Icon16Minus: import('vue').DefineComponent
     Icon16MinusCircle: import('vue').DefineComponent
@@ -379,8 +435,13 @@ declare module 'vue' {
     Icon16NftHeptagon: import('vue').DefineComponent
     Icon16NftHeptagonOutline: import('vue').DefineComponent
     Icon16Notebook: import('vue').DefineComponent
+    Icon16NotebookCheckOutline: import('vue').DefineComponent
     Icon16Notification: import('vue').DefineComponent
+    Icon16NotificationCheckOutline: import('vue').DefineComponent
+    Icon16NotificationOutline: import('vue').DefineComponent
     Icon16NotificationSlash: import('vue').DefineComponent
+    Icon16NotificationSlashOutline: import('vue').DefineComponent
+    Icon16NotificationWaves: import('vue').DefineComponent
     Icon16OnlineMobile: import('vue').DefineComponent
     Icon16PaletteOutline: import('vue').DefineComponent
     Icon16Pause: import('vue').DefineComponent
@@ -395,11 +456,14 @@ declare module 'vue' {
     Icon16PhoneOutline: import('vue').DefineComponent
     Icon16Picture: import('vue').DefineComponent
     Icon16PictureOutline: import('vue').DefineComponent
+    Icon16PictureSmall: import('vue').DefineComponent
     Icon16Pin: import('vue').DefineComponent
     Icon16PinDot: import('vue').DefineComponent
+    Icon16PinOutline: import('vue').DefineComponent
     Icon16Place: import('vue').DefineComponent
     Icon16PlaceOutline: import('vue').DefineComponent
     Icon16PlaneOutline: import('vue').DefineComponent
+    Icon16Playlist: import('vue').DefineComponent
     Icon16Play: import('vue').DefineComponent
     Icon16PlayCircle: import('vue').DefineComponent
     Icon16PlayCircleFillAzure: import('vue').DefineComponent
@@ -409,11 +473,13 @@ declare module 'vue' {
     Icon16Poll: import('vue').DefineComponent
     Icon16PopupStickersCircleFillRaspberryPinkProduct: import('vue').DefineComponent
     Icon16PopUpStickerCircleFillRaspberryPink: import('vue').DefineComponent
+    Icon16PopUpStickerOutline: import('vue').DefineComponent
     Icon16QrCode: import('vue').DefineComponent
     Icon16Question: import('vue').DefineComponent
     Icon16Recent: import('vue').DefineComponent
     Icon16RecordingCircleFill: import('vue').DefineComponent
     Icon16RectangleLine: import('vue').DefineComponent
+    Icon16RefreshOutline: import('vue').DefineComponent
     Icon16Replay10: import('vue').DefineComponent
     Icon16Replay: import('vue').DefineComponent
     Icon16Reply: import('vue').DefineComponent
@@ -422,6 +488,7 @@ declare module 'vue' {
     Icon16Repost: import('vue').DefineComponent
     Icon16RepostCircleFillRed: import('vue').DefineComponent
     Icon16RepostOutline: import('vue').DefineComponent
+    Icon16Rocket: import('vue').DefineComponent
     Icon16RoubleArrowBackwardOutline: import('vue').DefineComponent
     Icon16RoubleCircleFillBlue: import('vue').DefineComponent
     Icon16RoubleOutline: import('vue').DefineComponent
@@ -434,15 +501,22 @@ declare module 'vue' {
     Icon16Services: import('vue').DefineComponent
     Icon16ServicesOutline: import('vue').DefineComponent
     Icon16Share: import('vue').DefineComponent
+    Icon16ShareExternalOutline: import('vue').DefineComponent
     Icon16ShareOutline: import('vue').DefineComponent
+    Icon16ShoppingCartAddOutline: import('vue').DefineComponent
     Icon16ShoppingCartOutline: import('vue').DefineComponent
     Icon16ShuffleOutline: import('vue').DefineComponent
     Icon16SkipForward: import('vue').DefineComponent
     Icon16SlidersOutline: import('vue').DefineComponent
+    Icon16Smartphone: import('vue').DefineComponent
+    Icon16SmartphoneOutline: import('vue').DefineComponent
     Icon16Smile: import('vue').DefineComponent
     Icon16SmileAddOutline: import('vue').DefineComponent
     Icon16SmileFilled: import('vue').DefineComponent
+    Icon16SmileSmall: import('vue').DefineComponent
     Icon16Snowflake: import('vue').DefineComponent
+    Icon16SortArrowDown: import('vue').DefineComponent
+    Icon16SortArrowUp: import('vue').DefineComponent
     Icon16SortHorizontalOutline: import('vue').DefineComponent
     Icon16SortOutline: import('vue').DefineComponent
     Icon16SoundWaveSlashOutline: import('vue').DefineComponent
@@ -450,22 +524,30 @@ declare module 'vue' {
     Icon16Spinner: import('vue').DefineComponent
     Icon16Square: import('vue').DefineComponent
     Icon16Square4Outline: import('vue').DefineComponent
+    Icon16SquareStackUpOutline: import('vue').DefineComponent
     Icon16Stars: import('vue').DefineComponent
+    Icon16StarsOutline: import('vue').DefineComponent
     Icon16StarAlt: import('vue').DefineComponent
     Icon16StarCircle: import('vue').DefineComponent
     Icon16StarCircleFillBlue: import('vue').DefineComponent
     Icon16StarCircleFillGray: import('vue').DefineComponent
     Icon16StarCircleFillYellow: import('vue').DefineComponent
+    Icon16StickerSmileOutline: import('vue').DefineComponent
+    Icon16Stop: import('vue').DefineComponent
     Icon16StorefrontOutline: import('vue').DefineComponent
+    Icon16StoriesIdeas: import('vue').DefineComponent
     Icon16Story: import('vue').DefineComponent
     Icon16StoryOutline: import('vue').DefineComponent
     Icon16SubscriptionsOutline: import('vue').DefineComponent
     Icon16Subtitles: import('vue').DefineComponent
+    Icon16SubtitlesSlash: import('vue').DefineComponent
     Icon16Sun: import('vue').DefineComponent
     Icon16Sync: import('vue').DefineComponent
     Icon16SyncCircleFillBlack: import('vue').DefineComponent
+    Icon16TabletOutline: import('vue').DefineComponent
     Icon16TableOutline: import('vue').DefineComponent
     Icon16Tag: import('vue').DefineComponent
+    Icon16TagOutline: import('vue').DefineComponent
     Icon16TearOffFlyer: import('vue').DefineComponent
     Icon16TearOffFlyerOutline: import('vue').DefineComponent
     Icon16Text: import('vue').DefineComponent
@@ -480,10 +562,14 @@ declare module 'vue' {
     Icon16TextUnderlineEngOutline: import('vue').DefineComponent
     Icon16TextUnderlineOutline: import('vue').DefineComponent
     Icon16TextViewfinderOutline: import('vue').DefineComponent
+    Icon16ThumbsDown: import('vue').DefineComponent
     Icon16ThumbsDownOutline: import('vue').DefineComponent
+    Icon16ThumbsUp: import('vue').DefineComponent
     Icon16ThumbsUpOutline: import('vue').DefineComponent
     Icon16TicketOutline: import('vue').DefineComponent
     Icon16TruckOutline: import('vue').DefineComponent
+    Icon16TvAltOutline: import('vue').DefineComponent
+    Icon16UnavailableCallCircleFillRed: import('vue').DefineComponent
     Icon16Unfavorite: import('vue').DefineComponent
     Icon16UnfavoriteOutline: import('vue').DefineComponent
     Icon16UnlockOutline: import('vue').DefineComponent
@@ -520,6 +606,7 @@ declare module 'vue' {
     Icon16WindSnow: import('vue').DefineComponent
     Icon16WorkOutline: import('vue').DefineComponent
     Icon16WrenchOutline: import('vue').DefineComponent
+    Icon2016CircleOutline: import('vue').DefineComponent
     Icon201CircleFillGold: import('vue').DefineComponent
     Icon202CircleFillSilver: import('vue').DefineComponent
     Icon203CircleFillBronze: import('vue').DefineComponent
@@ -547,6 +634,7 @@ declare module 'vue' {
     Icon20ArchiveArrowDownOutline: import('vue').DefineComponent
     Icon20ArchiveOutline: import('vue').DefineComponent
     Icon20ArmchairOutline: import('vue').DefineComponent
+    Icon20ArrowbranchOutline: import('vue').DefineComponent
     Icon20ArrowshapeLeft2Outline: import('vue').DefineComponent
     Icon20ArrowshapeLeftRight: import('vue').DefineComponent
     Icon20ArrowshapeRightOutline: import('vue').DefineComponent
@@ -554,17 +642,23 @@ declare module 'vue' {
     Icon20Arrows2LeftRightInward: import('vue').DefineComponent
     Icon20Arrows2LeftRightOutward: import('vue').DefineComponent
     Icon20Arrow2SquarepathOutline: import('vue').DefineComponent
+    Icon20ArrowDownCrackOutline: import('vue').DefineComponent
+    Icon20ArrowDownLeftOutline: import('vue').DefineComponent
     Icon20ArrowDownOutline: import('vue').DefineComponent
     Icon20ArrowLeftOutline: import('vue').DefineComponent
     Icon20ArrowLeftRightCornersOutline: import('vue').DefineComponent
+    Icon20ArrowRightCircleOutline: import('vue').DefineComponent
     Icon20ArrowRightLeftCornersOutline: import('vue').DefineComponent
     Icon20ArrowRightOutline: import('vue').DefineComponent
     Icon20ArrowRightSquareOutline: import('vue').DefineComponent
     Icon20ArrowTurnRightOutline: import('vue').DefineComponent
+    Icon20ArrowUpCircleClockOutline: import('vue').DefineComponent
+    Icon20ArrowUpCircleOutline: import('vue').DefineComponent
     Icon20ArrowUpOutline: import('vue').DefineComponent
     Icon20ArrowUpRectangle: import('vue').DefineComponent
     Icon20ArrowUpRectangleOutline: import('vue').DefineComponent
     Icon20ArrowUpRectangleSlashOutline: import('vue').DefineComponent
+    Icon20ArrowUpRightOutline: import('vue').DefineComponent
     Icon20ArrowUpRightOutSquareOutline: import('vue').DefineComponent
     Icon20ArrowUturnLeftOutline: import('vue').DefineComponent
     Icon20ArrowUturnRightOutline: import('vue').DefineComponent
@@ -581,6 +675,7 @@ declare module 'vue' {
     Icon20BallNumber2Outline: import('vue').DefineComponent
     Icon20BasketballOutline: import('vue').DefineComponent
     Icon20BeautyOutline: import('vue').DefineComponent
+    Icon20BillSeparatedOutline: import('vue').DefineComponent
     Icon20BlockOutline: import('vue').DefineComponent
     Icon20BodyOutline: import('vue').DefineComponent
     Icon20BombOutline: import('vue').DefineComponent
@@ -593,11 +688,13 @@ declare module 'vue' {
     Icon20BookSpreadSimpleOutline: import('vue').DefineComponent
     Icon20BoxCircleFillBlue: import('vue').DefineComponent
     Icon20BracketsSlashOutline: import('vue').DefineComponent
+    Icon20BracketsSlashSquareOutline: import('vue').DefineComponent
     Icon20BrokenHeartOutline: import('vue').DefineComponent
     Icon20BrushOutline: import('vue').DefineComponent
     Icon20BubbleLolOutline: import('vue').DefineComponent
     Icon20BugOutline: import('vue').DefineComponent
     Icon20BuildingOutline: import('vue').DefineComponent
+    Icon20BusOutline: import('vue').DefineComponent
     Icon20CakeCircleFillPurple: import('vue').DefineComponent
     Icon20CakeCircleFillRaspberryPink: import('vue').DefineComponent
     Icon20CakeOutline: import('vue').DefineComponent
@@ -605,6 +702,7 @@ declare module 'vue' {
     Icon20CalendarCircleFillRed: import('vue').DefineComponent
     Icon20CalendarLargeOutline: import('vue').DefineComponent
     Icon20CalendarOutline: import('vue').DefineComponent
+    Icon20CalendarShield: import('vue').DefineComponent
     Icon20Camera: import('vue').DefineComponent
     Icon20CameraCircleFillGreen: import('vue').DefineComponent
     Icon20CameraOutline: import('vue').DefineComponent
@@ -613,10 +711,16 @@ declare module 'vue' {
     Icon20CancelCircleOutline: import('vue').DefineComponent
     Icon20CanisterOutline: import('vue').DefineComponent
     Icon20Cards2Outline: import('vue').DefineComponent
+    Icon20CardSparkles: import('vue').DefineComponent
+    Icon20CardSparkleCircleFill: import('vue').DefineComponent
     Icon20CarouselOutline: import('vue').DefineComponent
     Icon20CarOutline: import('vue').DefineComponent
+    Icon20CaseCheck: import('vue').DefineComponent
     Icon20CashOutOutline: import('vue').DefineComponent
     Icon20Chain: import('vue').DefineComponent
+    Icon20ChartCircleFillGreen: import('vue').DefineComponent
+    Icon20ChartSquareAltOutline: import('vue').DefineComponent
+    Icon20ChartSquareOutline: import('vue').DefineComponent
     Icon20CheckbackPrizeOutline: import('vue').DefineComponent
     Icon20ChecksOutline: import('vue').DefineComponent
     Icon20ChecksSmallOutline: import('vue').DefineComponent
@@ -633,6 +737,7 @@ declare module 'vue' {
     Icon20CheckCircleOutline: import('vue').DefineComponent
     Icon20CheckCommentOutline: import('vue').DefineComponent
     Icon20CheckNewsfeedOutline: import('vue').DefineComponent
+    Icon20CheckShieldBlue: import('vue').DefineComponent
     Icon20CheckShieldGreen: import('vue').DefineComponent
     Icon20CheckShieldOutline: import('vue').DefineComponent
     Icon20CheckSmallOutline: import('vue').DefineComponent
@@ -640,19 +745,26 @@ declare module 'vue' {
     Icon20ChevronCircleOutline: import('vue').DefineComponent
     Icon20ChevronLeft: import('vue').DefineComponent
     Icon20ChevronLeft2: import('vue').DefineComponent
+    Icon20ChevronLeft2Oultine: import('vue').DefineComponent
     Icon20ChevronLeftOutline: import('vue').DefineComponent
     Icon20ChevronRight: import('vue').DefineComponent
     Icon20ChevronRight2: import('vue').DefineComponent
+    Icon20ChevronRight2Outline: import('vue').DefineComponent
     Icon20ChevronRightOutline: import('vue').DefineComponent
     Icon20ChevronUp: import('vue').DefineComponent
+    Icon20ChevronUp2: import('vue').DefineComponent
     Icon20ChevronUpOutline: import('vue').DefineComponent
+    Icon20ChristmasTreeOutline: import('vue').DefineComponent
     Icon20CigaretteOutline: import('vue').DefineComponent
+    Icon20Circle: import('vue').DefineComponent
     Icon20CircleOutline: import('vue').DefineComponent
     Icon20CircleSmall: import('vue').DefineComponent
     Icon20CircleSmallFilled: import('vue').DefineComponent
     Icon20CircleSmallOutline: import('vue').DefineComponent
+    Icon20ClapperboardVideoOutline: import('vue').DefineComponent
     Icon20Clear: import('vue').DefineComponent
     Icon20ClearDataOutline: import('vue').DefineComponent
+    Icon20ClipsAttachOutline: import('vue').DefineComponent
     Icon20ClipCircleFillViolet: import('vue').DefineComponent
     Icon20Clock: import('vue').DefineComponent
     Icon20ClockCircleFillRaspberryPink: import('vue').DefineComponent
@@ -678,6 +790,8 @@ declare module 'vue' {
     Icon20CopyOutline: import('vue').DefineComponent
     Icon20CropOutline: import('vue').DefineComponent
     Icon20CrownCircleFillVkDating: import('vue').DefineComponent
+    Icon20CrownOutline: import('vue').DefineComponent
+    Icon20CrownSlashOutline: import('vue').DefineComponent
     Icon20CrownVerified: import('vue').DefineComponent
     Icon20CubeBoxOutline: import('vue').DefineComponent
     Icon20CupOutline: import('vue').DefineComponent
@@ -694,12 +808,16 @@ declare module 'vue' {
     Icon20DocumentListOutline: import('vue').DefineComponent
     Icon20DocumentOutline: import('vue').DefineComponent
     Icon20DocumentPlusOutline: import('vue').DefineComponent
+    Icon20DocumentSparklesOutline: import('vue').DefineComponent
     Icon20DocumentStatsOutline: import('vue').DefineComponent
     Icon20DocumentTextOutline: import('vue').DefineComponent
     Icon20DollarOutline: import('vue').DefineComponent
     Icon20DonateCircleFillYellow: import('vue').DefineComponent
     Icon20DonateOutline: import('vue').DefineComponent
+    Icon20Donut: import('vue').DefineComponent
     Icon20DonutCircleFillYellow: import('vue').DefineComponent
+    Icon20DonutCoinCircleFillYellow: import('vue').DefineComponent
+    Icon20DonutOutline: import('vue').DefineComponent
     Icon20DoorArrowRightOutline: import('vue').DefineComponent
     Icon20DoorEnterArrowRightOutline: import('vue').DefineComponent
     Icon20DotsVertical: import('vue').DefineComponent
@@ -709,6 +827,7 @@ declare module 'vue' {
     Icon20DownloadOutline: import('vue').DefineComponent
     Icon20Dropdown: import('vue').DefineComponent
     Icon20DumpbellOutline: import('vue').DefineComponent
+    Icon20EditorCutOutline: import('vue').DefineComponent
     Icon20EditCircleFillBlue: import('vue').DefineComponent
     Icon20EducationOutline: import('vue').DefineComponent
     Icon20EraserOutline: import('vue').DefineComponent
@@ -730,9 +849,11 @@ declare module 'vue' {
     Icon20FlagFinish: import('vue').DefineComponent
     Icon20FlagStart: import('vue').DefineComponent
     Icon20Flash: import('vue').DefineComponent
+    Icon20FlashCircleFillGreen: import('vue').DefineComponent
     Icon20FlashOutline: import('vue').DefineComponent
     Icon20FlipHorizontal: import('vue').DefineComponent
     Icon20FlipVertical: import('vue').DefineComponent
+    Icon20FlowerOutline: import('vue').DefineComponent
     Icon20FolderFill: import('vue').DefineComponent
     Icon20FolderLockOutline: import('vue').DefineComponent
     Icon20FolderMoveOutline: import('vue').DefineComponent
@@ -758,6 +879,7 @@ declare module 'vue' {
     Icon20GesturePlayOutline: import('vue').DefineComponent
     Icon20Ghost: import('vue').DefineComponent
     Icon20GhostOutline: import('vue').DefineComponent
+    Icon20GhostSimpleOutline: import('vue').DefineComponent
     Icon20Gift: import('vue').DefineComponent
     Icon20GiftCircleFillRed: import('vue').DefineComponent
     Icon20GiftCircleFillYellow: import('vue').DefineComponent
@@ -773,6 +895,7 @@ declare module 'vue' {
     Icon20HandPointUpOutline: import('vue').DefineComponent
     Icon20HashtagOutline: import('vue').DefineComponent
     Icon20HeadphonesCircleFillRaspberryPink: import('vue').DefineComponent
+    Icon20HeadphonesOutline: import('vue').DefineComponent
     Icon20HeadphonesSupportOutline: import('vue').DefineComponent
     Icon20HeadphonesWaveCircleFillGray: import('vue').DefineComponent
     Icon20HeadphonesWaveOutline: import('vue').DefineComponent
@@ -781,6 +904,7 @@ declare module 'vue' {
     Icon20Hearts2Outline: import('vue').DefineComponent
     Icon20HeartSettingsOutline: import('vue').DefineComponent
     Icon20HelpOutline: import('vue').DefineComponent
+    Icon20Hide: import('vue').DefineComponent
     Icon20HideOutline: import('vue').DefineComponent
     Icon20HieroglyphCharacterOutline: import('vue').DefineComponent
     Icon20HistoryBackwardOutline: import('vue').DefineComponent
@@ -790,10 +914,12 @@ declare module 'vue' {
     Icon20HomeCheckOutline: import('vue').DefineComponent
     Icon20HomeOutline: import('vue').DefineComponent
     Icon20HorizontalRectangle16x9Outline: import('vue').DefineComponent
+    Icon20HorizontalRectangle2HorizontalBottomOutline: import('vue').DefineComponent
     Icon20HorizontalRectangleOutline: import('vue').DefineComponent
     Icon20HorseToyOutline: import('vue').DefineComponent
     Icon20ImageFilterOutline: import('vue').DefineComponent
     Icon20ImageFormatOutline: import('vue').DefineComponent
+    Icon20ImageSpoilerOutline: import('vue').DefineComponent
     Icon20IncognitoOutline: import('vue').DefineComponent
     Icon20IndentDecreaseOutline: import('vue').DefineComponent
     Icon20IndentIncreaseOutline: import('vue').DefineComponent
@@ -819,7 +945,9 @@ declare module 'vue' {
     Icon20LineOutline: import('vue').DefineComponent
     Icon20LinkCircleOutline: import('vue').DefineComponent
     Icon20ListAddOutline: import('vue').DefineComponent
+    Icon20ListArrowLeftDownOutline: import('vue').DefineComponent
     Icon20ListBulletOutline: import('vue').DefineComponent
+    Icon20ListBulletSquareOutline: import('vue').DefineComponent
     Icon20ListCircleFillGray: import('vue').DefineComponent
     Icon20ListDeleteOutline: import('vue').DefineComponent
     Icon20ListInsertFirstOutline: import('vue').DefineComponent
@@ -868,6 +996,7 @@ declare module 'vue' {
     Icon20MailOutline: import('vue').DefineComponent
     Icon20MailStackOutline: import('vue').DefineComponent
     Icon20MarkerOutline: import('vue').DefineComponent
+    Icon20Market: import('vue').DefineComponent
     Icon20MarketCircleFillYellow: import('vue').DefineComponent
     Icon20MarketOutline: import('vue').DefineComponent
     Icon20MasksOutline: import('vue').DefineComponent
@@ -875,31 +1004,39 @@ declare module 'vue' {
     Icon20MentionCircleFillBlue: import('vue').DefineComponent
     Icon20MentionOutline: import('vue').DefineComponent
     Icon20MenuOutline: import('vue').DefineComponent
+    Icon20Messages: import('vue').DefineComponent
     Icon20MessagesOutline: import('vue').DefineComponent
+    Icon20Message: import('vue').DefineComponent
     Icon20MessageAddOutline: import('vue').DefineComponent
     Icon20MessageArrowRightOutline: import('vue').DefineComponent
     Icon20MessageCheckOutline: import('vue').DefineComponent
     Icon20MessageCircleFillBlue: import('vue').DefineComponent
     Icon20MessageCircleFillGreen: import('vue').DefineComponent
+    Icon20MessageClockOutline: import('vue').DefineComponent
     Icon20MessageCrossOutline: import('vue').DefineComponent
     Icon20MessageHeart: import('vue').DefineComponent
     Icon20MessageOutline: import('vue').DefineComponent
     Icon20MessageRectangleOutline: import('vue').DefineComponent
+    Icon20MessageTextOutline: import('vue').DefineComponent
     Icon20MessageUnreadCircleFillGray: import('vue').DefineComponent
     Icon20MessageUnreadCircleFillRed: import('vue').DefineComponent
     Icon20MessageUnreadTopOutline: import('vue').DefineComponent
+    Icon20MetroOutline: import('vue').DefineComponent
     Icon20MicCircleFillRaspberryPink: import('vue').DefineComponent
     Icon20MinecraftOutline: import('vue').DefineComponent
     Icon20MinusOutline: import('vue').DefineComponent
     Icon20MinusSquareOutline: import('vue').DefineComponent
+    Icon20MoneyCircleCheckOutline: import('vue').DefineComponent
     Icon20MoneyCircleOutline: import('vue').DefineComponent
     Icon20MoneyOutline: import('vue').DefineComponent
     Icon20MoneyRequestCircleFillBlue: import('vue').DefineComponent
     Icon20MoneyTransferCircleFillRed: import('vue').DefineComponent
     Icon20MoneyTransferCircleFillTurquoise: import('vue').DefineComponent
     Icon20MoneyTransferOutline: import('vue').DefineComponent
+    Icon20MoonAutoOutline: import('vue').DefineComponent
     Icon20MoonOutline: import('vue').DefineComponent
     Icon20More: import('vue').DefineComponent
+    Icon20MoreHorizontal: import('vue').DefineComponent
     Icon20MoreHorizontalCircle: import('vue').DefineComponent
     Icon20MoreVertical: import('vue').DefineComponent
     Icon20MoreVerticalCircle: import('vue').DefineComponent
@@ -919,6 +1056,7 @@ declare module 'vue' {
     Icon20NotificationOutline: import('vue').DefineComponent
     Icon20NotificationSlashOutline: import('vue').DefineComponent
     Icon20NotificationWaves: import('vue').DefineComponent
+    Icon20OnOffOutline: import('vue').DefineComponent
     Icon20PacmanOutline: import('vue').DefineComponent
     Icon20PaintRollerOutline: import('vue').DefineComponent
     Icon20PalleteOutline: import('vue').DefineComponent
@@ -946,6 +1084,7 @@ declare module 'vue' {
     Icon20PinSlashOutline: import('vue').DefineComponent
     Icon20PlaceOutline: import('vue').DefineComponent
     Icon20PlaneOutline: import('vue').DefineComponent
+    Icon20Playlist: import('vue').DefineComponent
     Icon20PlaylistOutline: import('vue').DefineComponent
     Icon20Play: import('vue').DefineComponent
     Icon20PlayCircle: import('vue').DefineComponent
@@ -979,6 +1118,7 @@ declare module 'vue' {
     Icon20RecentOutline: import('vue').DefineComponent
     Icon20RecorderTapeOutline: import('vue').DefineComponent
     Icon20RecordingCircleFill: import('vue').DefineComponent
+    Icon20Rectangle2: import('vue').DefineComponent
     Icon20Rectangle2HorizontalOutline: import('vue').DefineComponent
     Icon20RectangleInfoOutline: import('vue').DefineComponent
     Icon20RectangleLine: import('vue').DefineComponent
@@ -986,6 +1126,7 @@ declare module 'vue' {
     Icon20RectangleSplit4UnevenOutline: import('vue').DefineComponent
     Icon20RefreshOutline: import('vue').DefineComponent
     Icon20RemoveCircleOutline: import('vue').DefineComponent
+    Icon20Reorder: import('vue').DefineComponent
     Icon20Replay15: import('vue').DefineComponent
     Icon20ReplayOutline: import('vue').DefineComponent
     Icon20ReplyCircleFillGray: import('vue').DefineComponent
@@ -993,6 +1134,7 @@ declare module 'vue' {
     Icon20ReplyOutline: import('vue').DefineComponent
     Icon20ReportOutline: import('vue').DefineComponent
     Icon20RepostCircleFillGreen: import('vue').DefineComponent
+    Icon20RobotOutline: import('vue').DefineComponent
     Icon20RotateLeft: import('vue').DefineComponent
     Icon20RotateRight: import('vue').DefineComponent
     Icon20RoubleCircleFillBlue: import('vue').DefineComponent
@@ -1001,12 +1143,19 @@ declare module 'vue' {
     Icon20RssCircleFillYellow: import('vue').DefineComponent
     Icon20ScanViewfinderOutline: import('vue').DefineComponent
     Icon20ScissorsOutline: import('vue').DefineComponent
+    Icon20ScribblePencilRectangleOutline: import('vue').DefineComponent
     Icon20Search: import('vue').DefineComponent
+    Icon20SearchStarsOutline: import('vue').DefineComponent
+    Icon20Send: import('vue').DefineComponent
+    Icon20SendClock: import('vue').DefineComponent
+    Icon20SendClockOutline: import('vue').DefineComponent
     Icon20SendOutline: import('vue').DefineComponent
     Icon20ServicesCircleFillBlue: import('vue').DefineComponent
     Icon20ServicesCircleFillYellow: import('vue').DefineComponent
     Icon20ServicesFilled: import('vue').DefineComponent
     Icon20ServicesOutline: import('vue').DefineComponent
+    Icon20Share: import('vue').DefineComponent
+    Icon20ShareCircleFillPurple: import('vue').DefineComponent
     Icon20ShareExternalAndroid: import('vue').DefineComponent
     Icon20ShareExternalOutline: import('vue').DefineComponent
     Icon20ShareOutline: import('vue').DefineComponent
@@ -1024,6 +1173,7 @@ declare module 'vue' {
     Icon20SmartphoneOutline: import('vue').DefineComponent
     Icon20SmileAddOutline: import('vue').DefineComponent
     Icon20SmileOutline: import('vue').DefineComponent
+    Icon20SneakerOutline: import('vue').DefineComponent
     Icon20SongCircleFillViolet: import('vue').DefineComponent
     Icon20SongOutline: import('vue').DefineComponent
     Icon20SortOutline: import('vue').DefineComponent
@@ -1033,6 +1183,7 @@ declare module 'vue' {
     Icon20Square4Outline: import('vue').DefineComponent
     Icon20Square4PlusOutline: import('vue').DefineComponent
     Icon20Square4SlashOutline: import('vue').DefineComponent
+    Icon20SquareFilled: import('vue').DefineComponent
     Icon20SquareOutline: import('vue').DefineComponent
     Icon20SquareSplit3HorizontalOutline: import('vue').DefineComponent
     Icon20SquareSplit4Outline: import('vue').DefineComponent
@@ -1043,12 +1194,16 @@ declare module 'vue' {
     Icon20StarsSlashOutline: import('vue').DefineComponent
     Icon20StarCircleFillBlue: import('vue').DefineComponent
     Icon20StarCircleFillGray: import('vue').DefineComponent
+    Icon20StarCircleFillYellow: import('vue').DefineComponent
     Icon20StatisticsOutline: import('vue').DefineComponent
     Icon20StatisticCircleFillBlue: import('vue').DefineComponent
     Icon20StickerOutline: import('vue').DefineComponent
     Icon20StickerSmileOutline: import('vue').DefineComponent
     Icon20StorefrontOutline: import('vue').DefineComponent
+    Icon20StoriesIdeas: import('vue').DefineComponent
+    Icon20StoriesIdeasCircleFill: import('vue').DefineComponent
     Icon20Story: import('vue').DefineComponent
+    Icon20StoryAddOutline: import('vue').DefineComponent
     Icon20StoryFillCircleRed: import('vue').DefineComponent
     Icon20StoryFillCircleYellow: import('vue').DefineComponent
     Icon20StoryOutline: import('vue').DefineComponent
@@ -1057,6 +1212,7 @@ declare module 'vue' {
     Icon20StripCircleFillRed: import('vue').DefineComponent
     Icon20SubscriptionsOutline: import('vue').DefineComponent
     Icon20SubtitlesOutline: import('vue').DefineComponent
+    Icon20SunAutoOutline: import('vue').DefineComponent
     Icon20SunOutline: import('vue').DefineComponent
     Icon20Sync: import('vue').DefineComponent
     Icon20TableHeaderOutline: import('vue').DefineComponent
@@ -1073,6 +1229,7 @@ declare module 'vue' {
     Icon20TextItalicOutline: import('vue').DefineComponent
     Icon20TextLiveCircleFillGreen: import('vue').DefineComponent
     Icon20TextLiveOutline: import('vue').DefineComponent
+    Icon20TextMonospacedOutline: import('vue').DefineComponent
     Icon20TextOutline: import('vue').DefineComponent
     Icon20TextRightOutline: import('vue').DefineComponent
     Icon20TextStrikethroughOutline: import('vue').DefineComponent
@@ -1095,6 +1252,7 @@ declare module 'vue' {
     Icon20TshirtOutline: import('vue').DefineComponent
     Icon20TvOutline: import('vue').DefineComponent
     Icon20TvTextOutline: import('vue').DefineComponent
+    Icon20UmaOutline: import('vue').DefineComponent
     Icon20UmbrellaOutline: import('vue').DefineComponent
     Icon20UnarchiveOutline: import('vue').DefineComponent
     Icon20UnfavoriteOutline: import('vue').DefineComponent
@@ -1120,6 +1278,7 @@ declare module 'vue' {
     Icon20UserPenOutline: import('vue').DefineComponent
     Icon20UserRectangle: import('vue').DefineComponent
     Icon20UserReplyOutline: import('vue').DefineComponent
+    Icon20UserShieldOutline: import('vue').DefineComponent
     Icon20UserSlashOutline: import('vue').DefineComponent
     Icon20UserSquare: import('vue').DefineComponent
     Icon20UserSquareOnSquareOutline: import('vue').DefineComponent
@@ -1153,6 +1312,7 @@ declare module 'vue' {
     Icon20VolumeOutline: import('vue').DefineComponent
     Icon20VotestTransferCircleFillTurquoise: import('vue').DefineComponent
     Icon20VotesCircleFillBlue: import('vue').DefineComponent
+    Icon20VotesTransferCircleFillTurquoise: import('vue').DefineComponent
     Icon20WalletOutline: import('vue').DefineComponent
     Icon20WarningTriangleOutline: import('vue').DefineComponent
     Icon20WasherOutline: import('vue').DefineComponent
@@ -1191,6 +1351,7 @@ declare module 'vue' {
     Icon24AddBracesOutline: import('vue').DefineComponent
     Icon24AddCircle: import('vue').DefineComponent
     Icon24AddCircleDottedOutline: import('vue').DefineComponent
+    Icon24AddCircleFill: import('vue').DefineComponent
     Icon24AddCircleFillBlue: import('vue').DefineComponent
     Icon24AddCircleOutline: import('vue').DefineComponent
     Icon24AddOutline: import('vue').DefineComponent
@@ -1252,6 +1413,8 @@ declare module 'vue' {
     Icon24BookmarkAddBadgeOutline: import('vue').DefineComponent
     Icon24BookmarkCheckBadge: import('vue').DefineComponent
     Icon24BookmarkCheckOutline: import('vue').DefineComponent
+    Icon24BookmarkCircleFillGray: import('vue').DefineComponent
+    Icon24BookmarkCircleOutlineGray: import('vue').DefineComponent
     Icon24BookmarkOutline: import('vue').DefineComponent
     Icon24BookmarkSlashOutline: import('vue').DefineComponent
     Icon24BooksOutline: import('vue').DefineComponent
@@ -1282,9 +1445,13 @@ declare module 'vue' {
     Icon24CancelOutline: import('vue').DefineComponent
     Icon24Cards2: import('vue').DefineComponent
     Icon24Cards2Outline: import('vue').DefineComponent
+    Icon24CardSparklesOutline: import('vue').DefineComponent
     Icon24CarOutline: import('vue').DefineComponent
     Icon24CashOutOutline: import('vue').DefineComponent
     Icon24ChainOutline: import('vue').DefineComponent
+    Icon24Chart: import('vue').DefineComponent
+    Icon24ChartSquareAltOutline: import('vue').DefineComponent
+    Icon24ChartSquareOutline: import('vue').DefineComponent
     Icon24Chats: import('vue').DefineComponent
     Icon24ChatWaveOutlineGray: import('vue').DefineComponent
     Icon24ChecksOutline: import('vue').DefineComponent
@@ -1296,6 +1463,7 @@ declare module 'vue' {
     Icon24CheckCircleOff: import('vue').DefineComponent
     Icon24CheckCircleOn: import('vue').DefineComponent
     Icon24CheckCircleOutline: import('vue').DefineComponent
+    Icon24CheckOutline: import('vue').DefineComponent
     Icon24CheckShieldOutline: import('vue').DefineComponent
     Icon24CheckSquareOutline: import('vue').DefineComponent
     Icon24ChefHatOutline: import('vue').DefineComponent
@@ -1319,9 +1487,13 @@ declare module 'vue' {
     Icon24CircleDashedOutline: import('vue').DefineComponent
     Icon24CircleSmall: import('vue').DefineComponent
     Icon24CircleSmallOutline: import('vue').DefineComponent
+    Icon24ClapperboardOutline: import('vue').DefineComponent
+    Icon24ClapperboardVideoOutline: import('vue').DefineComponent
+    Icon24ClipsAttachOutline: import('vue').DefineComponent
     Icon24ClipOutline: import('vue').DefineComponent
     Icon24Clock: import('vue').DefineComponent
     Icon24ClockAddOutline: import('vue').DefineComponent
+    Icon24ClockCheckAltOutline: import('vue').DefineComponent
     Icon24ClockCheckOutline: import('vue').DefineComponent
     Icon24ClockCircleDashedOutline: import('vue').DefineComponent
     Icon24ClockCircleFillGray: import('vue').DefineComponent
@@ -1337,13 +1509,16 @@ declare module 'vue' {
     Icon24ColorPickerOutline: import('vue').DefineComponent
     Icon24Comment: import('vue').DefineComponent
     Icon24CommentAddBadgeOutline: import('vue').DefineComponent
+    Icon24CommentAlt: import('vue').DefineComponent
     Icon24CommentOutline: import('vue').DefineComponent
     Icon24CommentSlashOutline: import('vue').DefineComponent
     Icon24Compass: import('vue').DefineComponent
     Icon24CompassOutline: import('vue').DefineComponent
     Icon24ComputerOutline: import('vue').DefineComponent
     Icon24ComputerSmartphoneOutline: import('vue').DefineComponent
+    Icon24ComputerStackOutline: import('vue').DefineComponent
     Icon24Connection: import('vue').DefineComponent
+    Icon24Connect: import('vue').DefineComponent
     Icon24ContrastOutline: import('vue').DefineComponent
     Icon24Copy: import('vue').DefineComponent
     Icon24CopyOutline: import('vue').DefineComponent
@@ -1370,6 +1545,7 @@ declare module 'vue' {
     Icon24DismissOverlay: import('vue').DefineComponent
     Icon24DismissSubstract: import('vue').DefineComponent
     Icon24Document: import('vue').DefineComponent
+    Icon24DocumentArrowDownOutline: import('vue').DefineComponent
     Icon24DocumentArrowUpOutline: import('vue').DefineComponent
     Icon24DocumentListOutline: import('vue').DefineComponent
     Icon24DocumentOutline: import('vue').DefineComponent
@@ -1381,6 +1557,8 @@ declare module 'vue' {
     Icon24DonateOutline: import('vue').DefineComponent
     Icon24Done: import('vue').DefineComponent
     Icon24DoneOutline: import('vue').DefineComponent
+    Icon24DonutCheckOutline: import('vue').DefineComponent
+    Icon24DonutOutline: import('vue').DefineComponent
     Icon24DoorArrowLeftOutline: import('vue').DefineComponent
     Icon24DoorArrowRightOutline: import('vue').DefineComponent
     Icon24DotsVertical: import('vue').DefineComponent
@@ -1409,6 +1587,7 @@ declare module 'vue' {
     Icon24ErrorCircleOutline: import('vue').DefineComponent
     Icon24EternalFlameOutline: import('vue').DefineComponent
     Icon24EuroOutline: import('vue').DefineComponent
+    Icon24ExpandRectangleVerticalOutline: import('vue').DefineComponent
     Icon24Explicit: import('vue').DefineComponent
     Icon24ExpositionOutline: import('vue').DefineComponent
     Icon24ExternalLinkOutline: import('vue').DefineComponent
@@ -1420,7 +1599,9 @@ declare module 'vue' {
     Icon24FireAltOutline: import('vue').DefineComponent
     Icon24FlagFinish: import('vue').DefineComponent
     Icon24FlagStart: import('vue').DefineComponent
+    Icon24FlapperOutline: import('vue').DefineComponent
     Icon24Flash: import('vue').DefineComponent
+    Icon24FlashCircleFillGreen: import('vue').DefineComponent
     Icon24FlashOutline: import('vue').DefineComponent
     Icon24Folder: import('vue').DefineComponent
     Icon24FolderAdd: import('vue').DefineComponent
@@ -1479,18 +1660,25 @@ declare module 'vue' {
     Icon24HistoryBackwardOutline: import('vue').DefineComponent
     Icon24HistoryForwardOutline: import('vue').DefineComponent
     Icon24Home: import('vue').DefineComponent
+    Icon24HomeAltOutline: import('vue').DefineComponent
     Icon24HomeArrowDownOutline: import('vue').DefineComponent
     Icon24HomeHeartOutline: import('vue').DefineComponent
     Icon24HomeOutline: import('vue').DefineComponent
     Icon24HorizontalRectangle16x9Outline: import('vue').DefineComponent
+    Icon24HorizontalRectangleArrowsInOutline: import('vue').DefineComponent
+    Icon24HorizontalRectangleArrowsOutOutline: import('vue').DefineComponent
     Icon24HorizontalRectangleOutline: import('vue').DefineComponent
     Icon24HorseToyOutline: import('vue').DefineComponent
     Icon24HslOutline: import('vue').DefineComponent
     Icon24IceSkatesOutline: import('vue').DefineComponent
     Icon24ImageFilterOutline: import('vue').DefineComponent
+    Icon24ImageFormat: import('vue').DefineComponent
+    Icon24ImageSpoilerOutline: import('vue').DefineComponent
     Icon24Incognito: import('vue').DefineComponent
+    Icon24IncognitoOutline: import('vue').DefineComponent
     Icon24IndentDecreaseOutline: import('vue').DefineComponent
     Icon24IndentIncreaseOutline: import('vue').DefineComponent
+    Icon24InfinityOutline: import('vue').DefineComponent
     Icon24Info: import('vue').DefineComponent
     Icon24InfoCircleOutline: import('vue').DefineComponent
     Icon24KeyboardBotsOutline: import('vue').DefineComponent
@@ -1502,7 +1690,10 @@ declare module 'vue' {
     Icon24LightbulbOutline: import('vue').DefineComponent
     Icon24LightbulbStarOutline: import('vue').DefineComponent
     Icon24Like: import('vue').DefineComponent
+    Icon24LikeCircleFillRed: import('vue').DefineComponent
     Icon24LikeOutline: import('vue').DefineComponent
+    Icon24LikeSlash: import('vue').DefineComponent
+    Icon24LikeSlashOutline: import('vue').DefineComponent
     Icon24Linked: import('vue').DefineComponent
     Icon24LinkedOutline: import('vue').DefineComponent
     Icon24Link: import('vue').DefineComponent
@@ -1516,6 +1707,7 @@ declare module 'vue' {
     Icon24ListBulletSquareOutline: import('vue').DefineComponent
     Icon24ListCheckOutline: import('vue').DefineComponent
     Icon24ListDeleteOutline: import('vue').DefineComponent
+    Icon24ListInsertFirstOutline: import('vue').DefineComponent
     Icon24ListLetterOutline: import('vue').DefineComponent
     Icon24ListLikeFill: import('vue').DefineComponent
     Icon24ListLikeOutline: import('vue').DefineComponent
@@ -1570,12 +1762,15 @@ declare module 'vue' {
     Icon24MessageAddBadgeOutline: import('vue').DefineComponent
     Icon24MessageArrowRightOutline: import('vue').DefineComponent
     Icon24MessageBadge: import('vue').DefineComponent
+    Icon24MessageCheckOutline: import('vue').DefineComponent
+    Icon24MessageForward: import('vue').DefineComponent
     Icon24MessageForwardOutline: import('vue').DefineComponent
     Icon24MessageHeart: import('vue').DefineComponent
     Icon24MessageHeartOutline: import('vue').DefineComponent
     Icon24MessageOutline: import('vue').DefineComponent
     Icon24MessagePinOutline: import('vue').DefineComponent
     Icon24MessageReplyOutline: import('vue').DefineComponent
+    Icon24MessageStarsOutline: import('vue').DefineComponent
     Icon24MessageUnreadOutline: import('vue').DefineComponent
     Icon24MessageUnreadTopOutline: import('vue').DefineComponent
     Icon24Microphone2SlashOutline: import('vue').DefineComponent
@@ -1585,6 +1780,7 @@ declare module 'vue' {
     Icon24MinusOutline: import('vue').DefineComponent
     Icon24MinusSquareOutline: import('vue').DefineComponent
     Icon24MoneyCircle: import('vue').DefineComponent
+    Icon24MoneyCircleCheckOutline: import('vue').DefineComponent
     Icon24MoneyCircleOutline: import('vue').DefineComponent
     Icon24MoneyRequestOutline: import('vue').DefineComponent
     Icon24MoneySendOutline: import('vue').DefineComponent
@@ -1600,10 +1796,12 @@ declare module 'vue' {
     Icon24MusicMic: import('vue').DefineComponent
     Icon24MusicMicOutline: import('vue').DefineComponent
     Icon24MusicNote: import('vue').DefineComponent
+    Icon24MusicNoteSparkles: import('vue').DefineComponent
     Icon24MusicNoteWaveOutline: import('vue').DefineComponent
     Icon24MusicOutline: import('vue').DefineComponent
     Icon24Mute: import('vue').DefineComponent
     Icon24MuteCross: import('vue').DefineComponent
+    Icon24MuteCrossOutline: import('vue').DefineComponent
     Icon24MuteOutline: import('vue').DefineComponent
     Icon24NarrativeActiveOutline: import('vue').DefineComponent
     Icon24NarrativeFilled: import('vue').DefineComponent
@@ -1637,6 +1835,7 @@ declare module 'vue' {
     Icon24PaymentCardOutline: import('vue').DefineComponent
     Icon24PaymentCardVerticalOutline: import('vue').DefineComponent
     Icon24PenOutline: import('vue').DefineComponent
+    Icon24PenStackOutline: import('vue').DefineComponent
     Icon24PercentCircle: import('vue').DefineComponent
     Icon24Phone: import('vue').DefineComponent
     Icon24PhoneAddOutline: import('vue').DefineComponent
@@ -1651,6 +1850,7 @@ declare module 'vue' {
     Icon24PictureInPicture16x9Outline: import('vue').DefineComponent
     Icon24PictureInPictureOut16x9Outline: import('vue').DefineComponent
     Icon24PictureInPictureSquareFilled: import('vue').DefineComponent
+    Icon24PictureOnSquareOutline: import('vue').DefineComponent
     Icon24PictureOutline: import('vue').DefineComponent
     Icon24PicturePlusOutline: import('vue').DefineComponent
     Icon24Pin: import('vue').DefineComponent
@@ -1671,6 +1871,7 @@ declare module 'vue' {
     Icon24PlayOutline: import('vue').DefineComponent
     Icon24PlaySpeed: import('vue').DefineComponent
     Icon24Podcast: import('vue').DefineComponent
+    Icon24PodcastOutline: import('vue').DefineComponent
     Icon24Poll: import('vue').DefineComponent
     Icon24PollOutline: import('vue').DefineComponent
     Icon24PopUpStickerCircleFillRaspberryPink: import('vue').DefineComponent
@@ -1692,6 +1893,7 @@ declare module 'vue' {
     Icon24RectangleLine: import('vue').DefineComponent
     Icon24RectangleOutline: import('vue').DefineComponent
     Icon24RectangleSplit4UnevenOutline: import('vue').DefineComponent
+    Icon24RectangleTextOutline: import('vue').DefineComponent
     Icon24Refresh: import('vue').DefineComponent
     Icon24RefreshOutline: import('vue').DefineComponent
     Icon24RemoveCircle: import('vue').DefineComponent
@@ -1718,7 +1920,9 @@ declare module 'vue' {
     Icon24SadFaceOutline: import('vue').DefineComponent
     Icon24SartOutline: import('vue').DefineComponent
     Icon24ScanViewfinderOutline: import('vue').DefineComponent
+    Icon24ScissorsOutline: import('vue').DefineComponent
     Icon24Screencast: import('vue').DefineComponent
+    Icon24ScreencastEnabledOutline: import('vue').DefineComponent
     Icon24ScreencastOutline: import('vue').DefineComponent
     Icon24ScribblePencilRectangle: import('vue').DefineComponent
     Icon24ScribblePencilRectangleOutline: import('vue').DefineComponent
@@ -1736,13 +1940,16 @@ declare module 'vue' {
     Icon24Settings: import('vue').DefineComponent
     Icon24ShadowsOutline: import('vue').DefineComponent
     Icon24Share: import('vue').DefineComponent
+    Icon24ShareAlt: import('vue').DefineComponent
     Icon24ShareExternal: import('vue').DefineComponent
     Icon24ShareExternalOutline: import('vue').DefineComponent
     Icon24ShareOutline: import('vue').DefineComponent
+    Icon24ShoppingCartAddOutline: import('vue').DefineComponent
     Icon24ShoppingCartOutline: import('vue').DefineComponent
     Icon24Shuffle: import('vue').DefineComponent
     Icon24ShuffleOutline: import('vue').DefineComponent
     Icon24ShuffleOutlineDot: import('vue').DefineComponent
+    Icon24ShuffleSparkleOutline: import('vue').DefineComponent
     Icon24SignatureOutline: import('vue').DefineComponent
     Icon24Similar: import('vue').DefineComponent
     Icon24SkipBack: import('vue').DefineComponent
@@ -1762,6 +1969,8 @@ declare module 'vue' {
     Icon24Song: import('vue').DefineComponent
     Icon24SongOutline: import('vue').DefineComponent
     Icon24Sort: import('vue').DefineComponent
+    Icon24SortArrowDown: import('vue').DefineComponent
+    Icon24SortArrowUp: import('vue').DefineComponent
     Icon24SortHorizontalOutline: import('vue').DefineComponent
     Icon24SortOutline: import('vue').DefineComponent
     Icon24SoundEffect: import('vue').DefineComponent
@@ -1770,6 +1979,7 @@ declare module 'vue' {
     Icon24Spinner: import('vue').DefineComponent
     Icon24SpoilerOutline: import('vue').DefineComponent
     Icon24Squareshape2HorizontalBottomOutline: import('vue').DefineComponent
+    Icon24Squareshape2HorizontalOutline: import('vue').DefineComponent
     Icon24Squareshape2VerticalOutline: import('vue').DefineComponent
     Icon24Squareshape3VerticalLeftOutline: import('vue').DefineComponent
     Icon24Squareshape3VerticalOutline: import('vue').DefineComponent
@@ -1794,6 +2004,7 @@ declare module 'vue' {
     Icon24SquareStackUpOutline: import('vue').DefineComponent
     Icon24StarsOutline: import('vue').DefineComponent
     Icon24StarCircleFillGreen: import('vue').DefineComponent
+    Icon24StarCircleFillYellow: import('vue').DefineComponent
     Icon24StarShieldOutline: import('vue').DefineComponent
     Icon24StatisticsOutline: import('vue').DefineComponent
     Icon24StickerOutline: import('vue').DefineComponent
@@ -1815,7 +2026,11 @@ declare module 'vue' {
     Icon24TargetOutline: import('vue').DefineComponent
     Icon24TearOffFlyerOutline: import('vue').DefineComponent
     Icon24TennisBallOutline: import('vue').DefineComponent
+    Icon24TextAscLatinOutline: import('vue').DefineComponent
+    Icon24TextAscOutline: import('vue').DefineComponent
     Icon24TextBoldOutline: import('vue').DefineComponent
+    Icon24TextDescLatinOutline: import('vue').DefineComponent
+    Icon24TextDescOutline: import('vue').DefineComponent
     Icon24TextHeading1Outline: import('vue').DefineComponent
     Icon24TextHeading2Outline: import('vue').DefineComponent
     Icon24TextItalicOutline: import('vue').DefineComponent
@@ -1838,13 +2053,16 @@ declare module 'vue' {
     Icon24TreeNodes: import('vue').DefineComponent
     Icon24TreeNodesOutline: import('vue').DefineComponent
     Icon24TriangleOutline: import('vue').DefineComponent
+    Icon24TruckOutline: import('vue').DefineComponent
     Icon24TshirtOutline: import('vue').DefineComponent
+    Icon24Tv: import('vue').DefineComponent
     Icon24TvOutline: import('vue').DefineComponent
     Icon24UgcStickerOutline: import('vue').DefineComponent
     Icon24UnarchiveOutline: import('vue').DefineComponent
     Icon24UnblockOutline: import('vue').DefineComponent
     Icon24UnfavoriteOutline: import('vue').DefineComponent
     Icon24Unpin: import('vue').DefineComponent
+    Icon24UnreadCircleOutline: import('vue').DefineComponent
     Icon24Upload: import('vue').DefineComponent
     Icon24UploadOutline: import('vue').DefineComponent
     Icon24Up: import('vue').DefineComponent
@@ -1857,6 +2075,8 @@ declare module 'vue' {
     Icon24UserAdd: import('vue').DefineComponent
     Icon24UserAddOutline: import('vue').DefineComponent
     Icon24UserBackgroundOutline: import('vue').DefineComponent
+    Icon24UserCheck: import('vue').DefineComponent
+    Icon24UserCheckOutline: import('vue').DefineComponent
     Icon24UserCircleOutline: import('vue').DefineComponent
     Icon24UserIncoming: import('vue').DefineComponent
     Icon24UserMicrophoneBadgeOutline: import('vue').DefineComponent
@@ -1898,6 +2118,7 @@ declare module 'vue' {
     Icon24VolleyballOutline: import('vue').DefineComponent
     Icon24Volume: import('vue').DefineComponent
     Icon24VolumeOutline: import('vue').DefineComponent
+    Icon24VotesCircleFillBlue: import('vue').DefineComponent
     Icon24WalletOutline: import('vue').DefineComponent
     Icon24WarningTriangleOutline: import('vue').DefineComponent
     Icon24WasherOutline: import('vue').DefineComponent
@@ -1906,14 +2127,17 @@ declare module 'vue' {
     Icon24WineglassOutline: import('vue').DefineComponent
     Icon24Work: import('vue').DefineComponent
     Icon24WorkOutline: import('vue').DefineComponent
+    Icon24WrenchOutline: import('vue').DefineComponent
     Icon24Write: import('vue').DefineComponent
     Icon24WriteOutline: import('vue').DefineComponent
     Icon24Zip: import('vue').DefineComponent
     Icon24ZodiacGeminiOutline: import('vue').DefineComponent
+    Icon2816CircleOutline: import('vue').DefineComponent
     Icon2818CircleOutline: import('vue').DefineComponent
     Icon28AccessibilityOutline: import('vue').DefineComponent
     Icon28AchievementCircleFillBlue: import('vue').DefineComponent
     Icon28AddAwardOutline: import('vue').DefineComponent
+    Icon28AddCircleFill: import('vue').DefineComponent
     Icon28AddCircleFillBlue: import('vue').DefineComponent
     Icon28AddCircleOutline: import('vue').DefineComponent
     Icon28AddOutline: import('vue').DefineComponent
@@ -1931,8 +2155,10 @@ declare module 'vue' {
     Icon28ArchiveCircleFillGray: import('vue').DefineComponent
     Icon28ArchiveOutline: import('vue').DefineComponent
     Icon28ArmchairOutline: import('vue').DefineComponent
+    Icon28ArrowDownCircleOutline: import('vue').DefineComponent
     Icon28ArrowDownOutline: import('vue').DefineComponent
     Icon28ArrowDownToSquareOutline: import('vue').DefineComponent
+    Icon28ArrowLeftCircleOutline: import('vue').DefineComponent
     Icon28ArrowLeftOutline: import('vue').DefineComponent
     Icon28ArrowPopDownOutline: import('vue').DefineComponent
     Icon28ArrowPopUpOutline: import('vue').DefineComponent
@@ -1996,12 +2222,16 @@ declare module 'vue' {
     Icon28CalendarAddOutline: import('vue').DefineComponent
     Icon28CalendarCheckOutline: import('vue').DefineComponent
     Icon28CalendarCircleFillRed: import('vue').DefineComponent
+    Icon28CalendarDaysOutline: import('vue').DefineComponent
     Icon28CalendarOutline: import('vue').DefineComponent
+    Icon28CalendarSingleDayOutline: import('vue').DefineComponent
     Icon28Camera: import('vue').DefineComponent
     Icon28CameraAddOutline: import('vue').DefineComponent
     Icon28CameraCircleFillGreen: import('vue').DefineComponent
     Icon28CameraOutline: import('vue').DefineComponent
     Icon28CameraSlashOutline: import('vue').DefineComponent
+    Icon28CameraSync: import('vue').DefineComponent
+    Icon28CameraSyncOutline: import('vue').DefineComponent
     Icon28Cancel: import('vue').DefineComponent
     Icon28CancelAltOutline: import('vue').DefineComponent
     Icon28CancelCircleFillRed: import('vue').DefineComponent
@@ -2011,10 +2241,14 @@ declare module 'vue' {
     Icon28CanisterOutline: import('vue').DefineComponent
     Icon28Cards2: import('vue').DefineComponent
     Icon28Cards2Outline: import('vue').DefineComponent
+    Icon28CardSparklesOutline: import('vue').DefineComponent
     Icon28CarOutline: import('vue').DefineComponent
     Icon28CashOutOutline: import('vue').DefineComponent
     Icon28ChainCircleFillBlue: import('vue').DefineComponent
     Icon28ChainOutline: import('vue').DefineComponent
+    Icon28ChartCircleFillGreen: import('vue').DefineComponent
+    Icon28ChartSquareAltOutline: import('vue').DefineComponent
+    Icon28ChartSquareOutline: import('vue').DefineComponent
     Icon28ChatsOutline: import('vue').DefineComponent
     Icon28ChatWaveOutlineGray: import('vue').DefineComponent
     Icon28CheckbackPrizeOutline: import('vue').DefineComponent
@@ -2030,7 +2264,9 @@ declare module 'vue' {
     Icon28CheckSquareOutline: import('vue').DefineComponent
     Icon28ChefHatOutline: import('vue').DefineComponent
     Icon28Chevrons2LeftOutline: import('vue').DefineComponent
+    Icon28Chevrons2RightOutline: import('vue').DefineComponent
     Icon28ChevronBack: import('vue').DefineComponent
+    Icon28ChevronDownCircle: import('vue').DefineComponent
     Icon28ChevronDownOutline: import('vue').DefineComponent
     Icon28ChevronLeft: import('vue').DefineComponent
     Icon28ChevronLeftCircle: import('vue').DefineComponent
@@ -2038,16 +2274,21 @@ declare module 'vue' {
     Icon28ChevronRightCircle: import('vue').DefineComponent
     Icon28ChevronRightCircleOutline: import('vue').DefineComponent
     Icon28ChevronRightOutline: import('vue').DefineComponent
+    Icon28ChevronUpCircle: import('vue').DefineComponent
     Icon28ChevronUpOutline: import('vue').DefineComponent
+    Icon28ChristmasTreeOutline: import('vue').DefineComponent
     Icon28CigaretteOutline: import('vue').DefineComponent
     Icon28ClapperboardOutline: import('vue').DefineComponent
     Icon28ClearDataOutline: import('vue').DefineComponent
+    Icon28ClipsAttachOutline: import('vue').DefineComponent
     Icon28ClipCircleFillViolet: import('vue').DefineComponent
     Icon28ClipOutline: import('vue').DefineComponent
     Icon28Clock: import('vue').DefineComponent
+    Icon28ClockCheckAltOutline: import('vue').DefineComponent
     Icon28ClockCircleDashedOutline: import('vue').DefineComponent
     Icon28ClockCircleFillGray: import('vue').DefineComponent
     Icon28ClockCircleFillRaspberryPink: import('vue').DefineComponent
+    Icon28ClockCircleFillRed: import('vue').DefineComponent
     Icon28ClockOutline: import('vue').DefineComponent
     Icon28ClockRectangleStackOutline: import('vue').DefineComponent
     Icon28CloudArrowUpOutline: import('vue').DefineComponent
@@ -2066,11 +2307,13 @@ declare module 'vue' {
     Icon28ComputerMouseArrowsOutline: import('vue').DefineComponent
     Icon28ComputerOutline: import('vue').DefineComponent
     Icon28ComputerSmartphoneOutline: import('vue').DefineComponent
+    Icon28CopyrightOutline: import('vue').DefineComponent
     Icon28CopyOutline: import('vue').DefineComponent
     Icon28Crop: import('vue').DefineComponent
     Icon28CrossLargeOutline: import('vue').DefineComponent
     Icon28Crown: import('vue').DefineComponent
     Icon28CrownOutline: import('vue').DefineComponent
+    Icon28CrownSlashOutline: import('vue').DefineComponent
     Icon28CrownVerified: import('vue').DefineComponent
     Icon28CubeBoxOutline: import('vue').DefineComponent
     Icon28CupOutline: import('vue').DefineComponent
@@ -2080,6 +2323,8 @@ declare module 'vue' {
     Icon28DeleteOutlineAndroid: import('vue').DefineComponent
     Icon28DeleteSavedOutline: import('vue').DefineComponent
     Icon28DevicesOutline: import('vue').DefineComponent
+    Icon28Diamond: import('vue').DefineComponent
+    Icon28DiamondAltOutline: import('vue').DefineComponent
     Icon28DiamondOutline: import('vue').DefineComponent
     Icon28Dice1Outline: import('vue').DefineComponent
     Icon28Dice2Outline: import('vue').DefineComponent
@@ -2104,6 +2349,8 @@ declare module 'vue' {
     Icon28DonateOutline: import('vue').DefineComponent
     Icon28Done: import('vue').DefineComponent
     Icon28DoneOutline: import('vue').DefineComponent
+    Icon28DonutCoinCircleFillYellow: import('vue').DefineComponent
+    Icon28DonutOutline: import('vue').DefineComponent
     Icon28DoorArrowLeftOutline: import('vue').DefineComponent
     Icon28DoorArrowRightOutline: import('vue').DefineComponent
     Icon28DoorEnterArrowRightCircleFillGreen: import('vue').DefineComponent
@@ -2144,8 +2391,11 @@ declare module 'vue' {
     Icon28FireAltOutline: import('vue').DefineComponent
     Icon28FireCircleFillRed: import('vue').DefineComponent
     Icon28FireOutline: import('vue').DefineComponent
+    Icon28FishOutline: import('vue').DefineComponent
+    Icon28FlagOutline: import('vue').DefineComponent
     Icon28Flash: import('vue').DefineComponent
     Icon28FlashCircleFillGray: import('vue').DefineComponent
+    Icon28FlashCircleOutline: import('vue').DefineComponent
     Icon28FlashOutline: import('vue').DefineComponent
     Icon28FlipHorizontalOutline: import('vue').DefineComponent
     Icon28FlipVerticalOutline: import('vue').DefineComponent
@@ -2175,6 +2425,7 @@ declare module 'vue' {
     Icon28Gift: import('vue').DefineComponent
     Icon28GiftCircleFillRed: import('vue').DefineComponent
     Icon28GiftCircleFillYellow: import('vue').DefineComponent
+    Icon28GiftClockOutline: import('vue').DefineComponent
     Icon28GiftOutline: import('vue').DefineComponent
     Icon28GifOutline: import('vue').DefineComponent
     Icon28GlobeCircleFillBlue: import('vue').DefineComponent
@@ -2195,6 +2446,7 @@ declare module 'vue' {
     Icon28HandHeartOutline: import('vue').DefineComponent
     Icon28HandPointUpOutline: import('vue').DefineComponent
     Icon28HandSlashOutline: import('vue').DefineComponent
+    Icon28HandWaveCircleFillViolet: import('vue').DefineComponent
     Icon28HangerOutline: import('vue').DefineComponent
     Icon28HappyFaceOutline: import('vue').DefineComponent
     Icon28HashtagOutline: import('vue').DefineComponent
@@ -2203,6 +2455,7 @@ declare module 'vue' {
     Icon28HeadphonesOutline: import('vue').DefineComponent
     Icon28HeadphonesWaveCircleFillGray: import('vue').DefineComponent
     Icon28HeadphonesWaveOutline: import('vue').DefineComponent
+    Icon28HealthOutline: import('vue').DefineComponent
     Icon28Hearts2: import('vue').DefineComponent
     Icon28Hearts2CircleFillTwilight: import('vue').DefineComponent
     Icon28Hearts2Outline: import('vue').DefineComponent
@@ -2218,9 +2471,11 @@ declare module 'vue' {
     Icon28HistoryForwardLockOutline: import('vue').DefineComponent
     Icon28HistoryForwardOutline: import('vue').DefineComponent
     Icon28HistoryForwardSubstractOutline: import('vue').DefineComponent
+    Icon28HobbyOutline: import('vue').DefineComponent
     Icon28HockeyOutline: import('vue').DefineComponent
     Icon28HomeArrowDownOutline: import('vue').DefineComponent
     Icon28HomeOutline: import('vue').DefineComponent
+    Icon28HorizontalRectangle2HorizontalBottomOutline: import('vue').DefineComponent
     Icon28HorizontalRectangle2VerticalLeftFillOutline: import('vue').DefineComponent
     Icon28HorizontalRectangle2VerticalLeftOutline: import('vue').DefineComponent
     Icon28HorizontalRectangleOutline: import('vue').DefineComponent
@@ -2252,6 +2507,8 @@ declare module 'vue' {
     Icon28LikeFillRed: import('vue').DefineComponent
     Icon28LikeLockOutline: import('vue').DefineComponent
     Icon28LikeOutline: import('vue').DefineComponent
+    Icon28LikeSlash: import('vue').DefineComponent
+    Icon28LikeSlashOutline: import('vue').DefineComponent
     Icon28LinkCircleOutline: import('vue').DefineComponent
     Icon28LinkOutline: import('vue').DefineComponent
     Icon28ListAddOutline: import('vue').DefineComponent
@@ -2336,11 +2593,14 @@ declare module 'vue' {
     Icon28MessageQuestionCircleFillViolet: import('vue').DefineComponent
     Icon28MessageReplyOutline: import('vue').DefineComponent
     Icon28MessageRequestCircleFillBlue: import('vue').DefineComponent
+    Icon28MessageStarsOutline: import('vue').DefineComponent
     Icon28MessageStarOutline: import('vue').DefineComponent
+    Icon28MessageTextOutline: import('vue').DefineComponent
     Icon28MessageUnreadCircleFillGray: import('vue').DefineComponent
     Icon28MessageUnreadCircleFillRed: import('vue').DefineComponent
     Icon28MessageUnreadOutline: import('vue').DefineComponent
     Icon28MessageUnreadTop: import('vue').DefineComponent
+    Icon28MessageUnreadTopOutline: import('vue').DefineComponent
     Icon28MicrochipOutline: import('vue').DefineComponent
     Icon28Microphone2SlashOutline: import('vue').DefineComponent
     Icon28MicrophoneAlt: import('vue').DefineComponent
@@ -2356,6 +2616,8 @@ declare module 'vue' {
     Icon28MinecraftOutline: import('vue').DefineComponent
     Icon28MinusOutline: import('vue').DefineComponent
     Icon28MinusSquareOutline: import('vue').DefineComponent
+    Icon28MonetizationAuthorsFundOutline: import('vue').DefineComponent
+    Icon28MoneyCircleCheckOutline: import('vue').DefineComponent
     Icon28MoneyCircleOutline: import('vue').DefineComponent
     Icon28MoneyHistoryBackwardOutline: import('vue').DefineComponent
     Icon28MoneyRequestCircleFillBlue: import('vue').DefineComponent
@@ -2377,8 +2639,10 @@ declare module 'vue' {
     Icon28Music: import('vue').DefineComponent
     Icon28MusicCircleFillRaspberryPink: import('vue').DefineComponent
     Icon28MusicMicOutline: import('vue').DefineComponent
+    Icon28MusicNoteSparkles: import('vue').DefineComponent
     Icon28MusicNoteWaveOutline: import('vue').DefineComponent
     Icon28MusicOutline: import('vue').DefineComponent
+    Icon28MuteCross: import('vue').DefineComponent
     Icon28MuteOutline: import('vue').DefineComponent
     Icon28NameTagOutline: import('vue').DefineComponent
     Icon28NarrativeActiveOutline: import('vue').DefineComponent
@@ -2402,6 +2666,7 @@ declare module 'vue' {
     Icon28NotificationWaves: import('vue').DefineComponent
     Icon28NoSmokingSignOutline: import('vue').DefineComponent
     Icon28OnOffOutline: import('vue').DefineComponent
+    Icon28PaintBucket: import('vue').DefineComponent
     Icon28PaintRollerOutline: import('vue').DefineComponent
     Icon28PaletteFillBlue: import('vue').DefineComponent
     Icon28PaletteOutline: import('vue').DefineComponent
@@ -2421,10 +2686,12 @@ declare module 'vue' {
     Icon28PenStackOutline: import('vue').DefineComponent
     Icon28Phone: import('vue').DefineComponent
     Icon28PhoneAddOutline: import('vue').DefineComponent
+    Icon28PhoneArrowUpRightOutline: import('vue').DefineComponent
     Icon28PhoneCircleFillBlue: import('vue').DefineComponent
     Icon28PhoneCircleFillGreen: import('vue').DefineComponent
     Icon28PhoneCrossOutline: import('vue').DefineComponent
     Icon28PhoneDownFilled: import('vue').DefineComponent
+    Icon28PhoneDownOutline: import('vue').DefineComponent
     Icon28PhoneOutline: import('vue').DefineComponent
     Icon28PhoneSpamOutline: import('vue').DefineComponent
     Icon28PhoneWaveOutline: import('vue').DefineComponent
@@ -2449,6 +2716,7 @@ declare module 'vue' {
     Icon28Place: import('vue').DefineComponent
     Icon28PlaceOutline: import('vue').DefineComponent
     Icon28PlaneOutline: import('vue').DefineComponent
+    Icon28Playlist: import('vue').DefineComponent
     Icon28PlaylistOutline: import('vue').DefineComponent
     Icon28Play: import('vue').DefineComponent
     Icon28PlayAutoOutline: import('vue').DefineComponent
@@ -2487,9 +2755,11 @@ declare module 'vue' {
     Icon28RecentOutline: import('vue').DefineComponent
     Icon28RecorderTapeOutline: import('vue').DefineComponent
     Icon28RecorderTapeSlashOutline: import('vue').DefineComponent
+    Icon28Rectangle2NarrowOutline: import('vue').DefineComponent
     Icon28Rectangle2Outline: import('vue').DefineComponent
     Icon28RectangleLine: import('vue').DefineComponent
     Icon28RectangleSplit4UnevenOutline: import('vue').DefineComponent
+    Icon28RectangleStackOutline: import('vue').DefineComponent
     Icon28RectrangleHandPointUp: import('vue').DefineComponent
     Icon28RefreshOutline: import('vue').DefineComponent
     Icon28RemoveCircleOutline: import('vue').DefineComponent
@@ -2518,8 +2788,10 @@ declare module 'vue' {
     Icon28SafariOutline: import('vue').DefineComponent
     Icon28ScanViewfinderOutline: import('vue').DefineComponent
     Icon28SchoolOutline: import('vue').DefineComponent
+    Icon28Science: import('vue').DefineComponent
     Icon28ScissorsOutline: import('vue').DefineComponent
     Icon28Screencast: import('vue').DefineComponent
+    Icon28ScreencastEnabledOutline: import('vue').DefineComponent
     Icon28ScreencastOutline: import('vue').DefineComponent
     Icon28ScreenGridHorizon2LineOutline: import('vue').DefineComponent
     Icon28ScreenGridHorizonLineOutline: import('vue').DefineComponent
@@ -2534,6 +2806,7 @@ declare module 'vue' {
     Icon28SendCircleClock: import('vue').DefineComponent
     Icon28SendCircleFillGray: import('vue').DefineComponent
     Icon28SendClock: import('vue').DefineComponent
+    Icon28SendClockOutline: import('vue').DefineComponent
     Icon28SendOutline: import('vue').DefineComponent
     Icon28Services: import('vue').DefineComponent
     Icon28ServicesCircleFillBlue: import('vue').DefineComponent
@@ -2549,6 +2822,8 @@ declare module 'vue' {
     Icon28ShieldKeyholeOutline: import('vue').DefineComponent
     Icon28ShoppingCartOutline: import('vue').DefineComponent
     Icon28ShuffleOutline: import('vue').DefineComponent
+    Icon28ShuffleOutlineDot: import('vue').DefineComponent
+    Icon28ShuffleSparkleOutline: import('vue').DefineComponent
     Icon28SignatureOutline: import('vue').DefineComponent
     Icon28SkipBack: import('vue').DefineComponent
     Icon28SkipForward: import('vue').DefineComponent
@@ -2564,17 +2839,21 @@ declare module 'vue' {
     Icon28Smiles2Outline: import('vue').DefineComponent
     Icon28Smile: import('vue').DefineComponent
     Icon28SmileAddOutline: import('vue').DefineComponent
+    Icon28SmileCircleFill: import('vue').DefineComponent
     Icon28SmileOutline: import('vue').DefineComponent
     Icon28SneakerOutline: import('vue').DefineComponent
     Icon28SnowflakeOutline: import('vue').DefineComponent
     Icon28SongCircleFillViolet: import('vue').DefineComponent
     Icon28SongOutline: import('vue').DefineComponent
+    Icon28SortArrowDown: import('vue').DefineComponent
+    Icon28SortArrowUp: import('vue').DefineComponent
     Icon28SortHorizontalOutline: import('vue').DefineComponent
     Icon28SortOutline: import('vue').DefineComponent
     Icon28SoundWaveOutline: import('vue').DefineComponent
     Icon28SoundWaveSlashOutline: import('vue').DefineComponent
     Icon28SpaceFilled: import('vue').DefineComponent
     Icon28Sparkle: import('vue').DefineComponent
+    Icon28SparkleCircleFillPurple: import('vue').DefineComponent
     Icon28SparkleOutline: import('vue').DefineComponent
     Icon28SpeedometerMaxOutline: import('vue').DefineComponent
     Icon28SpeedometerMiddleOutline: import('vue').DefineComponent
@@ -2597,6 +2876,7 @@ declare module 'vue' {
     Icon28StopwatchOutline: import('vue').DefineComponent
     Icon28StopCircleOutline: import('vue').DefineComponent
     Icon28StorefrontOutline: import('vue').DefineComponent
+    Icon28StoriesIdeasOutline: import('vue').DefineComponent
     Icon28Story: import('vue').DefineComponent
     Icon28StoryAddOutline: import('vue').DefineComponent
     Icon28StoryCircleFillViolet: import('vue').DefineComponent
@@ -2641,6 +2921,7 @@ declare module 'vue' {
     Icon28ThumbsUp: import('vue').DefineComponent
     Icon28ThumbsUpCircleFillGreen: import('vue').DefineComponent
     Icon28ThumbsUpOutline: import('vue').DefineComponent
+    Icon28Ticket: import('vue').DefineComponent
     Icon28TicketOutline: import('vue').DefineComponent
     Icon28TouchIdOutline: import('vue').DefineComponent
     Icon28TrafficConeOutline: import('vue').DefineComponent
@@ -2653,6 +2934,7 @@ declare module 'vue' {
     Icon28UnarchiveOutline: import('vue').DefineComponent
     Icon28UnfavoriteOutline: import('vue').DefineComponent
     Icon28UnpinOutline: import('vue').DefineComponent
+    Icon28UnreadCircleOutline: import('vue').DefineComponent
     Icon28UploadOutline: import('vue').DefineComponent
     Icon28Users: import('vue').DefineComponent
     Icon28Users3: import('vue').DefineComponent
@@ -2668,6 +2950,7 @@ declare module 'vue' {
     Icon28UserAddOutline: import('vue').DefineComponent
     Icon28UserBackgroundOutline: import('vue').DefineComponent
     Icon28UserCardOutline: import('vue').DefineComponent
+    Icon28UserCheckOutline: import('vue').DefineComponent
     Icon28UserCircleFillBlue: import('vue').DefineComponent
     Icon28UserCircleOutline: import('vue').DefineComponent
     Icon28UserIncomingOutline: import('vue').DefineComponent
@@ -2736,13 +3019,18 @@ declare module 'vue' {
     Icon28ZodiacGeminiOutline: import('vue').DefineComponent
     Icon3218CircleOutline: import('vue').DefineComponent
     Icon32AdvertisingOutline: import('vue').DefineComponent
+    Icon32ArrowUpOutline: import('vue').DefineComponent
     Icon32CakeCircleFillPurple: import('vue').DefineComponent
     Icon32CakeCircleFillRaspberryPink: import('vue').DefineComponent
     Icon32Camera: import('vue').DefineComponent
     Icon32CameraOutline: import('vue').DefineComponent
     Icon32Cards2Outline: import('vue').DefineComponent
+    Icon32Chart: import('vue').DefineComponent
+    Icon32ChartAlt: import('vue').DefineComponent
+    Icon32ChartSquareOutline: import('vue').DefineComponent
     Icon32CheckbitOutline: import('vue').DefineComponent
     Icon32CheckCircle: import('vue').DefineComponent
+    Icon32CommentCircleFillGreen: import('vue').DefineComponent
     Icon32Crop: import('vue').DefineComponent
     Icon32DiscountOutline: import('vue').DefineComponent
     Icon32Discussions: import('vue').DefineComponent
@@ -2760,6 +3048,7 @@ declare module 'vue' {
     Icon32Gift: import('vue').DefineComponent
     Icon32GiftOutline: import('vue').DefineComponent
     Icon32Graffiti: import('vue').DefineComponent
+    Icon32HandPointUp: import('vue').DefineComponent
     Icon32HashtagOutline: import('vue').DefineComponent
     Icon32ImageFilter: import('vue').DefineComponent
     Icon32ImageFormat: import('vue').DefineComponent
@@ -2784,6 +3073,7 @@ declare module 'vue' {
     Icon32PlaceOutline: import('vue').DefineComponent
     Icon32Play: import('vue').DefineComponent
     Icon32PlayCircle: import('vue').DefineComponent
+    Icon32PlayCircleFillRed: import('vue').DefineComponent
     Icon32PlayRectangleStackOutline: import('vue').DefineComponent
     Icon32Poll: import('vue').DefineComponent
     Icon32PollOutline: import('vue').DefineComponent
@@ -2793,14 +3083,19 @@ declare module 'vue' {
     Icon32SendCircle: import('vue').DefineComponent
     Icon32SendCircleClock: import('vue').DefineComponent
     Icon32SongOutline: import('vue').DefineComponent
+    Icon32SortArrowDown: import('vue').DefineComponent
+    Icon32SortArrowUp: import('vue').DefineComponent
+    Icon32SparklesCircleFillAiGradient: import('vue').DefineComponent
     Icon32Spinner: import('vue').DefineComponent
     Icon32Square4Outline: import('vue').DefineComponent
     Icon32StarsCircleFillViolet: import('vue').DefineComponent
     Icon32StarsOutline: import('vue').DefineComponent
+    Icon32StopCircle: import('vue').DefineComponent
     Icon32StoryOutline: import('vue').DefineComponent
     Icon32TearOffFlyerOutline: import('vue').DefineComponent
     Icon32TicketOutline: import('vue').DefineComponent
     Icon32UsersCircleFillBlue: import('vue').DefineComponent
+    Icon32UserCircleFillBlue: import('vue').DefineComponent
     Icon32UserSquareOnSquare: import('vue').DefineComponent
     Icon32UserSquareOnSquareOutline: import('vue').DefineComponent
     Icon32Videos: import('vue').DefineComponent
@@ -2821,29 +3116,37 @@ declare module 'vue' {
     Icon36CancelCircle: import('vue').DefineComponent
     Icon36CancelOutline: import('vue').DefineComponent
     Icon36ChainOutline: import('vue').DefineComponent
+    Icon36ChartSquareOutline: import('vue').DefineComponent
+    Icon36CheckCircleOutline: import('vue').DefineComponent
     Icon36ChevronDownOutline: import('vue').DefineComponent
     Icon36ChevronLeftOutline: import('vue').DefineComponent
     Icon36ChevronRightOutline: import('vue').DefineComponent
     Icon36ClockOutline: import('vue').DefineComponent
     Icon36Coins: import('vue').DefineComponent
+    Icon36CoinsOutline: import('vue').DefineComponent
     Icon36CoinsStacks2Outline: import('vue').DefineComponent
     Icon36CoinsStacks3Outline: import('vue').DefineComponent
     Icon36CoinsStackHighOutline: import('vue').DefineComponent
     Icon36CoinsStackOutline: import('vue').DefineComponent
     Icon36Compass: import('vue').DefineComponent
     Icon36Delete: import('vue').DefineComponent
+    Icon36DeleteOutline: import('vue').DefineComponent
     Icon36DiamondOutline: import('vue').DefineComponent
     Icon36DiscountOutline: import('vue').DefineComponent
     Icon36Document: import('vue').DefineComponent
     Icon36Done: import('vue').DefineComponent
     Icon36DoneOutline: import('vue').DefineComponent
+    Icon36ErrorCircleOutline: import('vue').DefineComponent
     Icon36Favorite: import('vue').DefineComponent
     Icon36FavoriteOutline: import('vue').DefineComponent
+    Icon36Flash: import('vue').DefineComponent
+    Icon36Forward15: import('vue').DefineComponent
     Icon36GameOutline: import('vue').DefineComponent
     Icon36GhostSimpleOutline: import('vue').DefineComponent
     Icon36Gift: import('vue').DefineComponent
     Icon36GiftCirceFilled: import('vue').DefineComponent
     Icon36GiftOutline: import('vue').DefineComponent
+    Icon36HandWaveSparkles: import('vue').DefineComponent
     Icon36HashtagOutline: import('vue').DefineComponent
     Icon36HealthOutline: import('vue').DefineComponent
     Icon36Hearts2Outline: import('vue').DefineComponent
@@ -2884,10 +3187,13 @@ declare module 'vue' {
     Icon36Play: import('vue').DefineComponent
     Icon36PodcastsOutline: import('vue').DefineComponent
     Icon36PollSquareOutline: import('vue').DefineComponent
+    Icon36Repeat1Outline: import('vue').DefineComponent
+    Icon36RepeatOutline: import('vue').DefineComponent
     Icon36Replay15: import('vue').DefineComponent
     Icon36Replay: import('vue').DefineComponent
     Icon36Send: import('vue').DefineComponent
     Icon36ServicesOutline: import('vue').DefineComponent
+    Icon36ShuffleOutline: import('vue').DefineComponent
     Icon36SkipBack: import('vue').DefineComponent
     Icon36SkipForward: import('vue').DefineComponent
     Icon36SkipNext: import('vue').DefineComponent
@@ -2899,21 +3205,27 @@ declare module 'vue' {
     Icon36Story: import('vue').DefineComponent
     Icon36StoryOutline: import('vue').DefineComponent
     Icon36TearOffFlyerOutline: import('vue').DefineComponent
+    Icon36ThumbsDownOutline: import('vue').DefineComponent
+    Icon36TruckOutline: import('vue').DefineComponent
     Icon36Users: import('vue').DefineComponent
     Icon36Users3: import('vue').DefineComponent
     Icon36Users3Outline: import('vue').DefineComponent
     Icon36UserCircleOutline: import('vue').DefineComponent
     Icon36UserOutline: import('vue').DefineComponent
+    Icon36UserSlashOutline: import('vue').DefineComponent
     Icon36Videocam: import('vue').DefineComponent
     Icon36Video: import('vue').DefineComponent
     Icon36VideoOutline: import('vue').DefineComponent
     Icon36VinylOutline: import('vue').DefineComponent
     Icon40AppGalleryButtonEn: import('vue').DefineComponent
     Icon40AppGalleryButtonRu: import('vue').DefineComponent
+    Icon40ChartCircle: import('vue').DefineComponent
+    Icon40ClipsCircle: import('vue').DefineComponent
     Icon40CommentCircle: import('vue').DefineComponent
     Icon40CrossCircle: import('vue').DefineComponent
     Icon40DocumentCircle: import('vue').DefineComponent
     Icon40DoneCircle: import('vue').DefineComponent
+    Icon40DonutCoinCircleFillYellow: import('vue').DefineComponent
     Icon40DownloadCircle: import('vue').DefineComponent
     Icon40ErrorCircle: import('vue').DefineComponent
     Icon40GalaxyStoreButtonEn: import('vue').DefineComponent
@@ -2924,6 +3236,7 @@ declare module 'vue' {
     Icon40PlayCircle: import('vue').DefineComponent
     Icon40PodcastCircle: import('vue').DefineComponent
     Icon40PollCircle: import('vue').DefineComponent
+    Icon40UsersCircleFillBlue: import('vue').DefineComponent
     Icon40VideocamCircle: import('vue').DefineComponent
     Icon44CoinsOutline: import('vue').DefineComponent
     Icon44GiftOutline: import('vue').DefineComponent
@@ -2949,7 +3262,9 @@ declare module 'vue' {
     Icon48Compass: import('vue').DefineComponent
     Icon48DocumentArrowUpOutline: import('vue').DefineComponent
     Icon48DonateOutline: import('vue').DefineComponent
+    Icon48DonutCoinCircleFillYellow: import('vue').DefineComponent
     Icon48FilmStripPlay: import('vue').DefineComponent
+    Icon48Forward15: import('vue').DefineComponent
     Icon48Forward: import('vue').DefineComponent
     Icon48Game: import('vue').DefineComponent
     Icon48HideCircleFillPurple: import('vue').DefineComponent
@@ -2960,6 +3275,7 @@ declare module 'vue' {
     Icon48LogoVk: import('vue').DefineComponent
     Icon48MarketFillBlue: import('vue').DefineComponent
     Icon48MentionOutline: import('vue').DefineComponent
+    Icon48Music: import('vue').DefineComponent
     Icon48Mute: import('vue').DefineComponent
     Icon48NewsfeedOutline: import('vue').DefineComponent
     Icon48NotebookCircleFillBlue: import('vue').DefineComponent
@@ -2969,12 +3285,15 @@ declare module 'vue' {
     Icon48Playlist: import('vue').DefineComponent
     Icon48Play: import('vue').DefineComponent
     Icon48Podcast: import('vue').DefineComponent
+    Icon48Replay15: import('vue').DefineComponent
     Icon48Replay: import('vue').DefineComponent
     Icon48Services: import('vue').DefineComponent
     Icon48SkipBack: import('vue').DefineComponent
     Icon48SkipForward: import('vue').DefineComponent
     Icon48SkipNext: import('vue').DefineComponent
     Icon48SkipPrevious: import('vue').DefineComponent
+    Icon48SortArrowDown: import('vue').DefineComponent
+    Icon48SortArrowUp: import('vue').DefineComponent
     Icon48StarsCircleFillViolet: import('vue').DefineComponent
     Icon48Story: import('vue').DefineComponent
     Icon48Subtitles: import('vue').DefineComponent
@@ -2983,6 +3302,8 @@ declare module 'vue' {
     Icon48SwipeUp: import('vue').DefineComponent
     Icon48TextOutline: import('vue').DefineComponent
     Icon48UgcChatStickerCircleFillBlue: import('vue').DefineComponent
+    Icon48UsersCircleFillBlue: import('vue').DefineComponent
+    Icon48UsersCircleFillViolet: import('vue').DefineComponent
     Icon48UserAddCircleFillBlue: import('vue').DefineComponent
     Icon48UserRectangleHorizontalOutline: import('vue').DefineComponent
     Icon48Video: import('vue').DefineComponent
@@ -3005,6 +3326,7 @@ declare module 'vue' {
     Icon56ArticlesOutline: import('vue').DefineComponent
     Icon56ArticleOutline: import('vue').DefineComponent
     Icon56BackspaceOutline: import('vue').DefineComponent
+    Icon56BillSeparatedOutline: import('vue').DefineComponent
     Icon56BlockOutline: import('vue').DefineComponent
     Icon56BookmarkOutline: import('vue').DefineComponent
     Icon56BrushOutline: import('vue').DefineComponent
@@ -3017,11 +3339,14 @@ declare module 'vue' {
     Icon56CameraOutline: import('vue').DefineComponent
     Icon56CancelCircleOutline: import('vue').DefineComponent
     Icon56CarouselOutline: import('vue').DefineComponent
+    Icon56CarOutline: import('vue').DefineComponent
     Icon56ChainOutline: import('vue').DefineComponent
+    Icon56ChartSquareOutline: import('vue').DefineComponent
     Icon56CheckCircleDeviceOutline: import('vue').DefineComponent
     Icon56CheckCircleOutline: import('vue').DefineComponent
     Icon56CheckShieldOutline: import('vue').DefineComponent
     Icon56ClockCircleDashedOutline: import('vue').DefineComponent
+    Icon56CloudArrowUpOutline: import('vue').DefineComponent
     Icon56CoinsStacks3Outline: import('vue').DefineComponent
     Icon56CoinsStackHighOutline: import('vue').DefineComponent
     Icon56CommentsOutline: import('vue').DefineComponent
@@ -3030,6 +3355,7 @@ declare module 'vue' {
     Icon56CompassCircleFillPurple: import('vue').DefineComponent
     Icon56CompassOutline: import('vue').DefineComponent
     Icon56ComputerOutline: import('vue').DefineComponent
+    Icon56CopyOutline: import('vue').DefineComponent
     Icon56CrownVerified: import('vue').DefineComponent
     Icon56CupMusicNoteOutline: import('vue').DefineComponent
     Icon56CupOutline: import('vue').DefineComponent
@@ -3041,8 +3367,10 @@ declare module 'vue' {
     Icon56DevicesOutline: import('vue').DefineComponent
     Icon56DiamondOutline: import('vue').DefineComponent
     Icon56DocumentArrowUpOutline: import('vue').DefineComponent
+    Icon56DocumentBrokenOutline: import('vue').DefineComponent
     Icon56DocumentOutline: import('vue').DefineComponent
     Icon56DonateOutline: import('vue').DefineComponent
+    Icon56DonutOutline: import('vue').DefineComponent
     Icon56DoorArrowRightOutline: import('vue').DefineComponent
     Icon56DownloadOutline: import('vue').DefineComponent
     Icon56DownloadSquareOutline: import('vue').DefineComponent
@@ -3072,8 +3400,10 @@ declare module 'vue' {
     Icon56GlobeCrossOutline: import('vue').DefineComponent
     Icon56GlobeOutline: import('vue').DefineComponent
     Icon56GoodsCollection: import('vue').DefineComponent
+    Icon56GovernmentOutline: import('vue').DefineComponent
     Icon56GridCircleFillYellow: import('vue').DefineComponent
     Icon56HandPointUpLeftOutline: import('vue').DefineComponent
+    Icon56HandTapOutline: import('vue').DefineComponent
     Icon56HashtagOutline: import('vue').DefineComponent
     Icon56HeadphonesOutline: import('vue').DefineComponent
     Icon56HeadphonesWaveOutline: import('vue').DefineComponent
@@ -3143,7 +3473,10 @@ declare module 'vue' {
     Icon56PhoneOutline: import('vue').DefineComponent
     Icon56PictureCircleFillPurple: import('vue').DefineComponent
     Icon56PictureInPicture: import('vue').DefineComponent
+    Icon56PinDotOutline: import('vue').DefineComponent
+    Icon56PinOutline: import('vue').DefineComponent
     Icon56PlaceOutline: import('vue').DefineComponent
+    Icon56PlaneOutline: import('vue').DefineComponent
     Icon56PlaylistOutline: import('vue').DefineComponent
     Icon56PlayGesture: import('vue').DefineComponent
     Icon56PodcastsOutline: import('vue').DefineComponent
@@ -3154,7 +3487,9 @@ declare module 'vue' {
     Icon56ReportOutline: import('vue').DefineComponent
     Icon56RssVideoOutline: import('vue').DefineComponent
     Icon56RudeMessageOutline: import('vue').DefineComponent
+    Icon56ScanViewfinderOutline: import('vue').DefineComponent
     Icon56SchoolOutline: import('vue').DefineComponent
+    Icon56ScreencastOutline: import('vue').DefineComponent
     Icon56SearchLikeFilledOutline: import('vue').DefineComponent
     Icon56SearchLikeOutline: import('vue').DefineComponent
     Icon56SearchOutline: import('vue').DefineComponent
@@ -3212,347 +3547,12 @@ declare module 'vue' {
     Icon56WindowsDeviceOutline: import('vue').DefineComponent
     Icon56WrenchOutline: import('vue').DefineComponent
     Icon56WriteOutline: import('vue').DefineComponent
+    Icon64Pause: import('vue').DefineComponent
+    Icon64Play: import('vue').DefineComponent
+    Icon64UsersCircleFillBlue: import('vue').DefineComponent
     Icon96GoodsCollection: import('vue').DefineComponent
     Icon96NotePenOutline: import('vue').DefineComponent
     Icon96RadiowavesAroundOutline: import('vue').DefineComponent
-    Icon20StoryAddOutline: import('vue').DefineComponent
-    Icon24CommentAlt: import('vue').DefineComponent
-    Icon24ShareAlt: import('vue').DefineComponent
-    Icon56PinDotOutline: import('vue').DefineComponent
-    Icon56PinOutline: import('vue').DefineComponent
-    Icon12MarketSlash: import('vue').DefineComponent
-    Icon16BloggerMark10kOutline: import('vue').DefineComponent
-    Icon16PinOutline: import('vue').DefineComponent
-    Icon20EditorCutOutline: import('vue').DefineComponent
-    Icon20HeadphonesOutline: import('vue').DefineComponent
-    Icon20MessageTextOutline: import('vue').DefineComponent
-    Icon20MoreHorizontal: import('vue').DefineComponent
-    Icon20OnOffOutline: import('vue').DefineComponent
-    Icon20Reorder: import('vue').DefineComponent
-    Icon20UmaOutline: import('vue').DefineComponent
-    Icon24MessageForward: import('vue').DefineComponent
-    Icon24StarCircleFillYellow: import('vue').DefineComponent
-    Icon28MessageTextOutline: import('vue').DefineComponent
-    Icon36Forward15: import('vue').DefineComponent
-    Icon36UserSlashOutline: import('vue').DefineComponent
-    Icon56HandTapOutline: import('vue').DefineComponent
-    Icon12DotsVertical: import('vue').DefineComponent
-    Icon16NotificationWaves: import('vue').DefineComponent
-    Icon16PopUpStickerOutline: import('vue').DefineComponent
-    Icon20ListArrowLeftDownOutline: import('vue').DefineComponent
-    Icon32PlayCircleFillRed: import('vue').DefineComponent
-    Icon32UserCircleFillBlue: import('vue').DefineComponent
-    Icon40ClipsCircle: import('vue').DefineComponent
-    Icon64Pause: import('vue').DefineComponent
-    Icon64Play: import('vue').DefineComponent
-    Icon12ArticlesOutline: import('vue').DefineComponent
-    Icon12ArticleBoxOutline: import('vue').DefineComponent
-    Icon12CheckSquare: import('vue').DefineComponent
-    Icon12CrownAlt: import('vue').DefineComponent
-    Icon12Diamond: import('vue').DefineComponent
-    Icon12MessageOutline: import('vue').DefineComponent
-    Icon12Muted: import('vue').DefineComponent
-    Icon12NotebookCheckOutline: import('vue').DefineComponent
-    Icon12PodcastOutline: import('vue').DefineComponent
-    Icon12TruckOutline: import('vue').DefineComponent
-    Icon12VideoSquareOutline: import('vue').DefineComponent
-    Icon16ArrowbranchOutline: import('vue').DefineComponent
-    Icon16CaseCheck: import('vue').DefineComponent
-    Icon16CheckShieldBlue: import('vue').DefineComponent
-    Icon16CrownAlt: import('vue').DefineComponent
-    Icon16Diamond: import('vue').DefineComponent
-    Icon16Document: import('vue').DefineComponent
-    Icon16FullscreenExitOutline: import('vue').DefineComponent
-    Icon16NotebookCheckOutline: import('vue').DefineComponent
-    Icon16NotificationOutline: import('vue').DefineComponent
-    Icon16NotificationSlashOutline: import('vue').DefineComponent
-    Icon16RefreshOutline: import('vue').DefineComponent
-    Icon16Rocket: import('vue').DefineComponent
-    Icon16ShoppingCartAddOutline: import('vue').DefineComponent
-    Icon16StickerSmileOutline: import('vue').DefineComponent
-    Icon16SubtitlesSlash: import('vue').DefineComponent
-    Icon16UnavailableCallCircleFillRed: import('vue').DefineComponent
-    Icon20ArrowDownCrackOutline: import('vue').DefineComponent
-    Icon20ArrowDownLeftOutline: import('vue').DefineComponent
-    Icon20ArrowRightCircleOutline: import('vue').DefineComponent
-    Icon20ArrowUpRightOutline: import('vue').DefineComponent
-    Icon20CaseCheck: import('vue').DefineComponent
-    Icon20CheckShieldBlue: import('vue').DefineComponent
-    Icon20ChevronUp2: import('vue').DefineComponent
-    Icon20ChristmasTreeOutline: import('vue').DefineComponent
-    Icon20Circle: import('vue').DefineComponent
-    Icon20CrownOutline: import('vue').DefineComponent
-    Icon20CrownSlashOutline: import('vue').DefineComponent
-    Icon20HorizontalRectangle2HorizontalBottomOutline: import('vue').DefineComponent
-    Icon20Messages: import('vue').DefineComponent
-    Icon20Message: import('vue').DefineComponent
-    Icon20MoneyCircleCheckOutline: import('vue').DefineComponent
-    Icon20Rectangle2: import('vue').DefineComponent
-    Icon20ScribblePencilRectangleOutline: import('vue').DefineComponent
-    Icon20SendClockOutline: import('vue').DefineComponent
-    Icon20Share: import('vue').DefineComponent
-    Icon20SquareFilled: import('vue').DefineComponent
-    Icon20StoriesIdeas: import('vue').DefineComponent
-    Icon20StoriesIdeasCircleFill: import('vue').DefineComponent
-    Icon20UserShieldOutline: import('vue').DefineComponent
-    Icon24AddCircleFill: import('vue').DefineComponent
-    Icon24ClapperboardOutline: import('vue').DefineComponent
-    Icon24Connect: import('vue').DefineComponent
-    Icon24FlapperOutline: import('vue').DefineComponent
-    Icon24IncognitoOutline: import('vue').DefineComponent
-    Icon24InfinityOutline: import('vue').DefineComponent
-    Icon24LikeCircleFillRed: import('vue').DefineComponent
-    Icon24MoneyCircleCheckOutline: import('vue').DefineComponent
-    Icon24MuteCrossOutline: import('vue').DefineComponent
-    Icon24PodcastOutline: import('vue').DefineComponent
-    Icon24ScreencastEnabledOutline: import('vue').DefineComponent
-    Icon24ShoppingCartAddOutline: import('vue').DefineComponent
-    Icon24Squareshape2HorizontalOutline: import('vue').DefineComponent
-    Icon24UnreadCircleOutline: import('vue').DefineComponent
-    Icon28AddCircleFill: import('vue').DefineComponent
-    Icon28CameraSync: import('vue').DefineComponent
-    Icon28CameraSyncOutline: import('vue').DefineComponent
-    Icon28ChristmasTreeOutline: import('vue').DefineComponent
-    Icon28CrownSlashOutline: import('vue').DefineComponent
-    Icon28Diamond: import('vue').DefineComponent
-    Icon28DiamondAltOutline: import('vue').DefineComponent
-    Icon28FlagOutline: import('vue').DefineComponent
-    Icon28FlashCircleOutline: import('vue').DefineComponent
-    Icon28HorizontalRectangle2HorizontalBottomOutline: import('vue').DefineComponent
-    Icon28MonetizationAuthorsFundOutline: import('vue').DefineComponent
-    Icon28MoneyCircleCheckOutline: import('vue').DefineComponent
-    Icon28MuteCross: import('vue').DefineComponent
-    Icon28PaintBucket: import('vue').DefineComponent
-    Icon28PhoneArrowUpRightOutline: import('vue').DefineComponent
-    Icon28PhoneDownOutline: import('vue').DefineComponent
-    Icon28Rectangle2NarrowOutline: import('vue').DefineComponent
-    Icon28ScreencastEnabledOutline: import('vue').DefineComponent
-    Icon28SendClockOutline: import('vue').DefineComponent
-    Icon28StoriesIdeasOutline: import('vue').DefineComponent
-    Icon28UnreadCircleOutline: import('vue').DefineComponent
-    Icon32ArrowUpOutline: import('vue').DefineComponent
-    Icon32CommentCircleFillGreen: import('vue').DefineComponent
-    Icon36CheckCircleOutline: import('vue').DefineComponent
-    Icon36DeleteOutline: import('vue').DefineComponent
-    Icon36ErrorCircleOutline: import('vue').DefineComponent
-    Icon36Flash: import('vue').DefineComponent
-    Icon36Repeat1Outline: import('vue').DefineComponent
-    Icon36RepeatOutline: import('vue').DefineComponent
-    Icon36ShuffleOutline: import('vue').DefineComponent
-    Icon36ThumbsDownOutline: import('vue').DefineComponent
-    Icon48Forward15: import('vue').DefineComponent
-    Icon48Replay15: import('vue').DefineComponent
-    Icon48UsersCircleFillViolet: import('vue').DefineComponent
-    Icon56ScanViewfinderOutline: import('vue').DefineComponent
-    Icon56ScreencastOutline: import('vue').DefineComponent
-    Icon16Arrow2SquarepathOutline: import('vue').DefineComponent
-    Icon16SortArrowDown: import('vue').DefineComponent
-    Icon16SortArrowUp: import('vue').DefineComponent
-    Icon16StoriesIdeas: import('vue').DefineComponent
-    Icon16TagOutline: import('vue').DefineComponent
-    Icon20ClipsAttachOutline: import('vue').DefineComponent
-    Icon24ClipsAttachOutline: import('vue').DefineComponent
-    Icon24ImageFormat: import('vue').DefineComponent
-    Icon24SortArrowDown: import('vue').DefineComponent
-    Icon24SortArrowUp: import('vue').DefineComponent
-    Icon28CalendarDaysOutline: import('vue').DefineComponent
-    Icon28CalendarSingleDayOutline: import('vue').DefineComponent
-    Icon28ClipsAttachOutline: import('vue').DefineComponent
-    Icon28SortArrowDown: import('vue').DefineComponent
-    Icon28SortArrowUp: import('vue').DefineComponent
-    Icon32SortArrowDown: import('vue').DefineComponent
-    Icon32SortArrowUp: import('vue').DefineComponent
-    Icon48SortArrowDown: import('vue').DefineComponent
-    Icon48SortArrowUp: import('vue').DefineComponent
-    Icon12Share: import('vue').DefineComponent
-    Icon12Shops: import('vue').DefineComponent
-    Icon16ComputerOutline: import('vue').DefineComponent
-    Icon16DonutOutline: import('vue').DefineComponent
-    Icon16Live: import('vue').DefineComponent
-    Icon16NotificationCheckOutline: import('vue').DefineComponent
-    Icon16SmartphoneOutline: import('vue').DefineComponent
-    Icon16TabletOutline: import('vue').DefineComponent
-    Icon16ThumbsDown: import('vue').DefineComponent
-    Icon16ThumbsUp: import('vue').DefineComponent
-    Icon16TvAltOutline: import('vue').DefineComponent
-    Icon20CalendarShield: import('vue').DefineComponent
-    Icon20Donut: import('vue').DefineComponent
-    Icon20DonutCoinCircleFillYellow: import('vue').DefineComponent
-    Icon20DonutOutline: import('vue').DefineComponent
-    Icon20Market: import('vue').DefineComponent
-    Icon20StarCircleFillYellow: import('vue').DefineComponent
-    Icon24ComputerStackOutline: import('vue').DefineComponent
-    Icon24DonutCheckOutline: import('vue').DefineComponent
-    Icon24DonutOutline: import('vue').DefineComponent
-    Icon24ExpandRectangleVerticalOutline: import('vue').DefineComponent
-    Icon24HorizontalRectangleArrowsInOutline: import('vue').DefineComponent
-    Icon24HorizontalRectangleArrowsOutOutline: import('vue').DefineComponent
-    Icon24ListInsertFirstOutline: import('vue').DefineComponent
-    Icon24MessageCheckOutline: import('vue').DefineComponent
-    Icon24RectangleTextOutline: import('vue').DefineComponent
-    Icon24ScissorsOutline: import('vue').DefineComponent
-    Icon24TruckOutline: import('vue').DefineComponent
-    Icon24Tv: import('vue').DefineComponent
-    Icon28ClockCircleFillRed: import('vue').DefineComponent
-    Icon28DonutCoinCircleFillYellow: import('vue').DefineComponent
-    Icon28DonutOutline: import('vue').DefineComponent
-    Icon40DonutCoinCircleFillYellow: import('vue').DefineComponent
-    Icon40UsersCircleFillBlue: import('vue').DefineComponent
-    Icon48DonutCoinCircleFillYellow: import('vue').DefineComponent
-    Icon48UsersCircleFillBlue: import('vue').DefineComponent
-    Icon56DonutOutline: import('vue').DefineComponent
-    Icon64UsersCircleFillBlue: import('vue').DefineComponent
-    Icon16ArrowDownCircleSmall: import('vue').DefineComponent
-    Icon16Hide: import('vue').DefineComponent
-    Icon16Stop: import('vue').DefineComponent
-    Icon20ArrowUpCircleClockOutline: import('vue').DefineComponent
-    Icon20ArrowUpCircleOutline: import('vue').DefineComponent
-    Icon20BracketsSlashSquareOutline: import('vue').DefineComponent
-    Icon20MessageClockOutline: import('vue').DefineComponent
-    Icon20SearchStarsOutline: import('vue').DefineComponent
-    Icon20Send: import('vue').DefineComponent
-    Icon20SendClock: import('vue').DefineComponent
-    Icon20TextMonospacedOutline: import('vue').DefineComponent
-    Icon24MessageStarsOutline: import('vue').DefineComponent
-    Icon24PenStackOutline: import('vue').DefineComponent
-    Icon28ArrowDownCircleOutline: import('vue').DefineComponent
-    Icon28ArrowLeftCircleOutline: import('vue').DefineComponent
-    Icon28GiftClockOutline: import('vue').DefineComponent
-    Icon28MessageStarsOutline: import('vue').DefineComponent
-    Icon32HandPointUp: import('vue').DefineComponent
-    Icon12Bookmark: import('vue').DefineComponent
-    Icon12Calendar: import('vue').DefineComponent
-    Icon12Car: import('vue').DefineComponent
-    Icon12Chart: import('vue').DefineComponent
-    Icon12ChartAlt: import('vue').DefineComponent
-    Icon12ChartSquare: import('vue').DefineComponent
-    Icon12CheckShield: import('vue').DefineComponent
-    Icon12PaymentCard: import('vue').DefineComponent
-    Icon12Plane: import('vue').DefineComponent
-    Icon12Playlist: import('vue').DefineComponent
-    Icon12Rating: import('vue').DefineComponent
-    Icon12Sparkle: import('vue').DefineComponent
-    Icon12Sparkles: import('vue').DefineComponent
-    Icon12StickerSmileOutline: import('vue').DefineComponent
-    Icon12TargetOutline: import('vue').DefineComponent
-    Icon12TextRectangle: import('vue').DefineComponent
-    Icon12ThumbsUp: import('vue').DefineComponent
-    Icon16AddOutline: import('vue').DefineComponent
-    Icon16Asterisk8: import('vue').DefineComponent
-    Icon16CakeOutline: import('vue').DefineComponent
-    Icon16CardSparkle: import('vue').DefineComponent
-    Icon16Chart: import('vue').DefineComponent
-    Icon16ChartAlt: import('vue').DefineComponent
-    Icon16ChartSquareAltOutline: import('vue').DefineComponent
-    Icon16Home: import('vue').DefineComponent
-    Icon16HomeOutline: import('vue').DefineComponent
-    Icon16MicrophoneOutline: import('vue').DefineComponent
-    Icon16PictureSmall: import('vue').DefineComponent
-    Icon16Playlist: import('vue').DefineComponent
-    Icon16ShareExternalOutline: import('vue').DefineComponent
-    Icon16Smartphone: import('vue').DefineComponent
-    Icon16SmileSmall: import('vue').DefineComponent
-    Icon16SquareStackUpOutline: import('vue').DefineComponent
-    Icon16StarsOutline: import('vue').DefineComponent
-    Icon2016CircleOutline: import('vue').DefineComponent
-    Icon20ArrowbranchOutline: import('vue').DefineComponent
-    Icon20BillSeparatedOutline: import('vue').DefineComponent
-    Icon20BusOutline: import('vue').DefineComponent
-    Icon20CardSparkleCircleFill: import('vue').DefineComponent
-    Icon20CardSparkles: import('vue').DefineComponent
-    Icon20ChartCircleFillGreen: import('vue').DefineComponent
-    Icon20ChartSquareAltOutline: import('vue').DefineComponent
-    Icon20ChartSquareOutline: import('vue').DefineComponent
-    Icon20ChevronLeft2Oultine: import('vue').DefineComponent
-    Icon20ChevronRight2Outline: import('vue').DefineComponent
-    Icon20ClapperboardVideoOutline: import('vue').DefineComponent
-    Icon20DocumentSparklesOutline: import('vue').DefineComponent
-    Icon20FlashCircleFillGreen: import('vue').DefineComponent
-    Icon20FlowerOutline: import('vue').DefineComponent
-    Icon20GhostSimpleOutline: import('vue').DefineComponent
-    Icon20Hide: import('vue').DefineComponent
-    Icon20ImageSpoilerOutline: import('vue').DefineComponent
-    Icon20ListBulletSquareOutline: import('vue').DefineComponent
-    Icon20MetroOutline: import('vue').DefineComponent
-    Icon20MoonAutoOutline: import('vue').DefineComponent
-    Icon20Playlist: import('vue').DefineComponent
-    Icon20RobotOutline: import('vue').DefineComponent
-    Icon20ShareCircleFillPurple: import('vue').DefineComponent
-    Icon20SneakerOutline: import('vue').DefineComponent
-    Icon20SunAutoOutline: import('vue').DefineComponent
-    Icon20VotesTransferCircleFillTurquoise: import('vue').DefineComponent
-    Icon24BookmarkCircleFillGray: import('vue').DefineComponent
-    Icon24BookmarkCircleOutlineGray: import('vue').DefineComponent
-    Icon24CardSparklesOutline: import('vue').DefineComponent
-    Icon24Chart: import('vue').DefineComponent
-    Icon24ChartSquareAltOutline: import('vue').DefineComponent
-    Icon24ChartSquareOutline: import('vue').DefineComponent
-    Icon24CheckOutline: import('vue').DefineComponent
-    Icon24ClapperboardVideoOutline: import('vue').DefineComponent
-    Icon24ClockCheckAltOutline: import('vue').DefineComponent
-    Icon24DocumentArrowDownOutline: import('vue').DefineComponent
-    Icon24FlashCircleFillGreen: import('vue').DefineComponent
-    Icon24HomeAltOutline: import('vue').DefineComponent
-    Icon24ImageSpoilerOutline: import('vue').DefineComponent
-    Icon24LikeSlash: import('vue').DefineComponent
-    Icon24LikeSlashOutline: import('vue').DefineComponent
-    Icon24MusicNoteSparkles: import('vue').DefineComponent
-    Icon24PictureOnSquareOutline: import('vue').DefineComponent
-    Icon24ShuffleSparkleOutline: import('vue').DefineComponent
-    Icon24TextAscLatinOutline: import('vue').DefineComponent
-    Icon24TextAscOutline: import('vue').DefineComponent
-    Icon24TextDescLatinOutline: import('vue').DefineComponent
-    Icon24TextDescOutline: import('vue').DefineComponent
-    Icon24UserCheck: import('vue').DefineComponent
-    Icon24UserCheckOutline: import('vue').DefineComponent
-    Icon24VotesCircleFillBlue: import('vue').DefineComponent
-    Icon24WrenchOutline: import('vue').DefineComponent
-    Icon2816CircleOutline: import('vue').DefineComponent
-    Icon28CardSparklesOutline: import('vue').DefineComponent
-    Icon28ChartCircleFillGreen: import('vue').DefineComponent
-    Icon28ChartSquareAltOutline: import('vue').DefineComponent
-    Icon28ChartSquareOutline: import('vue').DefineComponent
-    Icon28ChevronDownCircle: import('vue').DefineComponent
-    Icon28ChevronUpCircle: import('vue').DefineComponent
-    Icon28Chevrons2RightOutline: import('vue').DefineComponent
-    Icon28ClockCheckAltOutline: import('vue').DefineComponent
-    Icon28CopyrightOutline: import('vue').DefineComponent
-    Icon28FishOutline: import('vue').DefineComponent
-    Icon28HandWaveCircleFillViolet: import('vue').DefineComponent
-    Icon28HealthOutline: import('vue').DefineComponent
-    Icon28HobbyOutline: import('vue').DefineComponent
-    Icon28LikeSlash: import('vue').DefineComponent
-    Icon28LikeSlashOutline: import('vue').DefineComponent
-    Icon28MessageUnreadTopOutline: import('vue').DefineComponent
-    Icon28MusicNoteSparkles: import('vue').DefineComponent
-    Icon28Playlist: import('vue').DefineComponent
-    Icon28RectangleStackOutline: import('vue').DefineComponent
-    Icon28Science: import('vue').DefineComponent
-    Icon28ShuffleOutlineDot: import('vue').DefineComponent
-    Icon28ShuffleSparkleOutline: import('vue').DefineComponent
-    Icon28SmileCircleFill: import('vue').DefineComponent
-    Icon28SparkleCircleFillPurple: import('vue').DefineComponent
-    Icon28Ticket: import('vue').DefineComponent
-    Icon28UserCheckOutline: import('vue').DefineComponent
-    Icon32Chart: import('vue').DefineComponent
-    Icon32ChartAlt: import('vue').DefineComponent
-    Icon32ChartSquareOutline: import('vue').DefineComponent
-    Icon32SparklesCircleFillAiGradient: import('vue').DefineComponent
-    Icon32StopCircle: import('vue').DefineComponent
-    Icon36ChartSquareOutline: import('vue').DefineComponent
-    Icon36CoinsOutline: import('vue').DefineComponent
-    Icon36HandWaveSparkles: import('vue').DefineComponent
-    Icon36TruckOutline: import('vue').DefineComponent
-    Icon40ChartCircle: import('vue').DefineComponent
-    Icon48Music: import('vue').DefineComponent
-    Icon56BillSeparatedOutline: import('vue').DefineComponent
-    Icon56CarOutline: import('vue').DefineComponent
-    Icon56ChartSquareOutline: import('vue').DefineComponent
-    Icon56CloudArrowUpOutline: import('vue').DefineComponent
-    Icon56CopyOutline: import('vue').DefineComponent
-    Icon56DocumentBrokenOutline: import('vue').DefineComponent
-    Icon56GovernmentOutline: import('vue').DefineComponent
-    Icon56PlaneOutline: import('vue').DefineComponent
   }
 }
 export {}

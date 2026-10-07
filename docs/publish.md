@@ -10,6 +10,8 @@ Workflow [sync-icons](../.github/workflows/sync-icons.yml) ежедневно п
 Публикация работает через npm Trusted Publishing, поэтому токен не нужен. Однократная настройка выполняется на npmjs.com:
 `vue-vkontakte-icons` → Settings → Trusted Publisher → GitHub Actions, где указываются `ivanmem` / `vue-vkontakte-icons` / `sync-icons.yml`.
 
+Для своих исправлений достаточно поднять версию в `package.json` и запушить в `main`: workflow опубликует любую версию, которой ещё нет в npm, и создаст тег с GitHub-релизом.
+
 ## Ручная публикация
 1. Инкрементируем версию библиотеки в `package.json`.
 2. Выполняем команды

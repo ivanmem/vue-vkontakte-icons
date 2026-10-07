@@ -34,21 +34,23 @@ export default function generateIcons(): Plugin<Api> {
             console.log('Старт генерации иконок...')
             const globalComponents: Record<string, string> = {}
             const iconsComponentsIndexPath = path.join(process.cwd(), './src/index.ts')
-            const iconSizes = (await fs.readdir(iconsDir, {withFileTypes: true})).filter(x => x.isDirectory()).map(x => x.name)
+            const iconSizes = (await fs.readdir(iconsDir, {withFileTypes: true})).filter(x => x.isDirectory()).map(x => x.name).sort()
             // index.ts
             let imports = ''
             let exports = ''
 
             for (const size of iconSizes) {
                 const iconsDirFromSize = path.join(iconsDir, size)
-                const iconFiles = fs.readdirSync(iconsDirFromSize).filter((file) => file.endsWith('.svg'))
+                // Сортируем, чтобы порядок не зависел от ОС и генерация не давала лишних диффов.
+                const iconFiles = fs.readdirSync(iconsDirFromSize).filter((file) => file.endsWith('.svg')).sort()
 
                 for (const file of iconFiles) {
                     const iconName = file.replace('.svg', '')
                     const componentName = transformIconName(iconName.slice(0, iconName.length - size.length), size)
                     const importPath = `@vkontakte/icons/src/svg/${size}/${file}?component`
-                    imports += `import ${componentName} from '${importPath}';\n`
-                    exports += `  ${componentName},\n`
+                    imports += `import _${componentName} from '${importPath}';\n`
+                    // Явный тип нужен, чтобы в .d.ts не попал импорт ?component: у потребителя он не резолвится и превращается в any.
+                    exports += `export const ${componentName}: IconComponent = _${componentName};\n`
                     globalComponents[componentName] = size
                 }
 
@@ -58,10 +60,12 @@ export default function generateIcons(): Plugin<Api> {
 
 
             const content = `// Auto generated component declarations
+import type { FunctionalComponent, SVGAttributes } from 'vue';
+
 ${imports}
-export {
-${exports}
-};`
+export type IconComponent = FunctionalComponent<SVGAttributes>;
+
+${exports}`
 
             // Записываем содержимое в файл index.ts
             fs.writeFileSync(iconsComponentsIndexPath, content, 'utf8')
