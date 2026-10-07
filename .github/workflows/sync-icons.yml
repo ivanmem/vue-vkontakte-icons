@@ -60,7 +60,6 @@ jobs:
           ICONS: ${{ steps.check.outputs.icons }}
         run: |
           npm install -D -E "@vkontakte/icons@$ICONS"
-          # Версию нужно поднять до генерации: она попадает в web-types.json.
           npm version "$ICONS" --no-git-tag-version
 
       - name: Build
@@ -82,7 +81,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add package.json src/index.ts volar.d.ts
+          git add package.json src/index.ts
           git commit -m "release: $VERSION"
           git push origin HEAD
 

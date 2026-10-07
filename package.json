@@ -1,18 +1,14 @@
 {
   "name": "vue-vkontakte-icons",
-  "version": "3.75.1",
+  "version": "3.75.2",
   "description": "A Vue 3 Vkontakte Icon Component Library.",
   "type": "module",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "web-types": "./web-types.json",
   "author": "ivanmem",
   "license": "MIT",
   "files": [
-    "dist/",
-    "src/assets/",
-    "volar.d.ts",
-    "web-types.json"
+    "dist/"
   ],
   "repository": {
     "type": "git",

@@ -3,24 +3,11 @@ import * as path from 'node:path'
 import process from "node:process";
 import { Api } from '@vitejs/plugin-vue'
 import { Plugin } from 'vite'
-import { snakeCase } from "es-toolkit";
 
 const iconsDir = path.join(process.cwd(), './node_modules/@vkontakte/icons/src/svg')
 
-function exist(path: string) {
-    return fs.existsSync(path)
-}
-
-function parseComponentsDeclaration(code: string) {
-    if (!code) return {}
-
-    return Object.fromEntries(
-        Array.from(code.matchAll(/(?<!\/\/)\s+\s+['"]?(.+?)['"]?:\s(.+?)\n/g)).map(
-            i => [i[1], i[2]]
-        )
-    )
-}
-
+// Глобальные декларации (web-types, GlobalComponents) намеренно не генерируются: библиотека ничего не регистрирует глобально,
+// а с ними IDE считает иконки доступными без импорта и не предупреждает о пропущенном импорте.
 /** Генерирует иконки и завершает процесс. */
 export default function generateIcons(): Plugin<Api> {
     return {
@@ -32,7 +19,6 @@ export default function generateIcons(): Plugin<Api> {
             }
 
             console.log('Старт генерации иконок...')
-            const globalComponents: Record<string, string> = {}
             const iconsComponentsIndexPath = path.join(process.cwd(), './src/index.ts')
             const iconSizes = (await fs.readdir(iconsDir, {withFileTypes: true})).filter(x => x.isDirectory()).map(x => x.name).sort()
             // index.ts
@@ -51,7 +37,6 @@ export default function generateIcons(): Plugin<Api> {
                     imports += `import _${componentName} from '${importPath}';\n`
                     // Явный тип нужен, чтобы в .d.ts не попал импорт ?component: у потребителя он не резолвится и превращается в any.
                     exports += `export const ${componentName}: IconComponent = _${componentName};\n`
-                    globalComponents[componentName] = size
                 }
 
                 imports += '\n'
@@ -71,106 +56,6 @@ ${exports}`
             fs.writeFileSync(iconsComponentsIndexPath, content, 'utf8')
 
             console.log('Компоненты успешно созданы.')
-
-            console.log('Старт генерации web-types...')
-
-            const version = process.env.npm_package_version || '0.0.0'
-
-            const scaffold = {
-                $schema: 'https://raw.githubusercontent.com/JetBrains/web-types/master/schema/web-types.json',
-                framework: 'vue',
-                name: 'vue-vkontakte-icons',
-                version,
-                'js-types-syntax': 'typescript',
-                "framework-config": {
-                    "enable-when": {
-                        "node-packages": [
-                            "vue",
-                            "@vue/cli"
-                        ],
-                        "file-extensions": [
-                            "vue"
-                        ],
-                        "ide-libraries": [
-                            "vue"
-                        ]
-                    }
-                },
-                contributions: {
-                    html: {
-                        'vue-components': [] as any[]
-                    }
-                }
-            }
-
-            Object.entries(globalComponents).forEach(([exportName]) => {
-                if (!exportName.startsWith('Icon')) return
-
-                const size = globalComponents[exportName]
-                const name = snakeCase(exportName.slice(6))
-                scaffold.contributions.html['vue-components'].push({
-                    name: exportName,
-                    description: 'Automatically generated component',
-                    'doc-url': `https://vkcom.github.io/icons/#${size}/${name}`,
-                    source: {
-                        symbol: exportName
-                    },
-                    props: [],
-                    js: {
-                        events: []
-                    },
-                    slots: []
-                })
-            })
-
-            await fs.writeFile(
-                path.resolve(process.cwd(), 'web-types.json'),
-                JSON.stringify(scaffold, null, 2)
-            )
-
-            console.log('Web-types успешно сгенерированы')
-
-            const components: Record<string, any> = {}
-            Object.keys(globalComponents).forEach((key) => {
-                const entry = `import('vue').DefineComponent`
-                if (key.startsWith('Icon')) {
-                    components[key] = entry
-                }
-            })
-            const originalContent = exist(path.resolve(process.cwd(), 'volar.d.ts'))
-                ? await fs.readFile(path.resolve(process.cwd(), 'volar.d.ts'), 'utf-8')
-                : ''
-
-            const originImports = parseComponentsDeclaration(originalContent)
-
-            const lines = Object.entries({
-                ...originImports,
-                ...components
-            })
-                .filter(([name]) => {
-                    return components[name]
-                })
-                .map(([name, v]) => {
-                    if (!/^\w+$/.test(name)) {
-                        name = `'${name}'`
-                    }
-                    return `${name}: ${v}`
-                })
-
-            const code = `// Auto generated component declarations
-declare module 'vue' {
-  export interface GlobalComponents {
-    ${lines.join('\n    ')}
-  }
-}
-export {}
-`
-
-            if (code !== originalContent) {
-                await fs.writeFile(path.resolve(process.cwd(), 'volar.d.ts'), code, 'utf-8')
-            }
-
-            console.log('Генерация типов успешно завершена')
 
             process.exit(0)
         },
