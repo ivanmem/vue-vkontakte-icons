@@ -72,3 +72,13 @@ jobs:
           git commit -m "release: $VERSION"
           git tag "v$VERSION"
           git push origin HEAD "v$VERSION"
+
+      - name: Create GitHub release
+        if: steps.check.outputs.version
+        env:
+          VERSION: ${{ steps.check.outputs.version }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v$VERSION" --title "$VERSION" --notes "Обновление [@vkontakte/icons](https://github.com/VKCOM/icons/releases) до $VERSION.
+
+          npm: https://www.npmjs.com/package/vue-vkontakte-icons/v/$VERSION"
