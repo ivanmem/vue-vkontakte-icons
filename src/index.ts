@@ -317,6 +317,7 @@ import _Icon16ErrorCircleFill from '@vkontakte/icons/src/svg/16/error_circle_fil
 import _Icon16ErrorCircleFillOverlay from '@vkontakte/icons/src/svg/16/error_circle_fill_overlay_16.svg?component';
 import _Icon16ErrorCircleFillYellow from '@vkontakte/icons/src/svg/16/error_circle_fill_yellow_16.svg?component';
 import _Icon16ErrorCircleOutline from '@vkontakte/icons/src/svg/16/error_circle_outline_16.svg?component';
+import _Icon16ErrorCircleSmall from '@vkontakte/icons/src/svg/16/error_circle_small_16.svg?component';
 import _Icon16EuroOutline from '@vkontakte/icons/src/svg/16/euro_outline_16.svg?component';
 import _Icon16ExclamationMarkOutline from '@vkontakte/icons/src/svg/16/exclamation_mark_outline_16.svg?component';
 import _Icon16Explicit from '@vkontakte/icons/src/svg/16/explicit_16.svg?component';
@@ -3886,6 +3887,7 @@ export const Icon16ErrorCircleFill: IconComponent = _Icon16ErrorCircleFill;
 export const Icon16ErrorCircleFillOverlay: IconComponent = _Icon16ErrorCircleFillOverlay;
 export const Icon16ErrorCircleFillYellow: IconComponent = _Icon16ErrorCircleFillYellow;
 export const Icon16ErrorCircleOutline: IconComponent = _Icon16ErrorCircleOutline;
+export const Icon16ErrorCircleSmall: IconComponent = _Icon16ErrorCircleSmall;
 export const Icon16EuroOutline: IconComponent = _Icon16EuroOutline;
 export const Icon16ExclamationMarkOutline: IconComponent = _Icon16ExclamationMarkOutline;
 export const Icon16Explicit: IconComponent = _Icon16Explicit;
