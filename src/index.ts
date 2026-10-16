@@ -1755,6 +1755,7 @@ import _Icon24MappinViewfinderOutline from '@vkontakte/icons/src/svg/24/mappin_v
 import _Icon24MarkerOutline from '@vkontakte/icons/src/svg/24/marker_outline_24.svg?component';
 import _Icon24Market from '@vkontakte/icons/src/svg/24/market_24.svg?component';
 import _Icon24MarketOutline from '@vkontakte/icons/src/svg/24/market_outline_24.svg?component';
+import _Icon24MarketSlashOutline from '@vkontakte/icons/src/svg/24/market_slash_outline_24.svg?component';
 import _Icon24MasksOutline from '@vkontakte/icons/src/svg/24/masks_outline_24.svg?component';
 import _Icon24MegaphoneOutline from '@vkontakte/icons/src/svg/24/megaphone_outline_24.svg?component';
 import _Icon24MemoryCard from '@vkontakte/icons/src/svg/24/memory_card_24.svg?component';
@@ -5325,6 +5326,7 @@ export const Icon24MappinViewfinderOutline: IconComponent = _Icon24MappinViewfin
 export const Icon24MarkerOutline: IconComponent = _Icon24MarkerOutline;
 export const Icon24Market: IconComponent = _Icon24Market;
 export const Icon24MarketOutline: IconComponent = _Icon24MarketOutline;
+export const Icon24MarketSlashOutline: IconComponent = _Icon24MarketSlashOutline;
 export const Icon24MasksOutline: IconComponent = _Icon24MasksOutline;
 export const Icon24MegaphoneOutline: IconComponent = _Icon24MegaphoneOutline;
 export const Icon24MemoryCard: IconComponent = _Icon24MemoryCard;
