@@ -1501,6 +1501,7 @@ import _Icon24ClockCheckAltOutline from '@vkontakte/icons/src/svg/24/clock_check
 import _Icon24ClockCheckOutline from '@vkontakte/icons/src/svg/24/clock_check_outline_24.svg?component';
 import _Icon24ClockCircleDashedOutline from '@vkontakte/icons/src/svg/24/clock_circle_dashed_outline_24.svg?component';
 import _Icon24ClockCircleFillGray from '@vkontakte/icons/src/svg/24/clock_circle_fill_gray_24.svg?component';
+import _Icon24ClockExclamationOutline from '@vkontakte/icons/src/svg/24/clock_exclamation_outline_24.svg?component';
 import _Icon24ClockLockOutline from '@vkontakte/icons/src/svg/24/clock_lock_outline_24.svg?component';
 import _Icon24ClockOutline from '@vkontakte/icons/src/svg/24/clock_outline_24.svg?component';
 import _Icon24CloudArrowUpOutline from '@vkontakte/icons/src/svg/24/cloud_arrow_up_outline_24.svg?component';
@@ -5072,6 +5073,7 @@ export const Icon24ClockCheckAltOutline: IconComponent = _Icon24ClockCheckAltOut
 export const Icon24ClockCheckOutline: IconComponent = _Icon24ClockCheckOutline;
 export const Icon24ClockCircleDashedOutline: IconComponent = _Icon24ClockCircleDashedOutline;
 export const Icon24ClockCircleFillGray: IconComponent = _Icon24ClockCircleFillGray;
+export const Icon24ClockExclamationOutline: IconComponent = _Icon24ClockExclamationOutline;
 export const Icon24ClockLockOutline: IconComponent = _Icon24ClockLockOutline;
 export const Icon24ClockOutline: IconComponent = _Icon24ClockOutline;
 export const Icon24CloudArrowUpOutline: IconComponent = _Icon24CloudArrowUpOutline;
